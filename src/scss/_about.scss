@@ -1,0 +1,74 @@
+@import url(_regular.scss);
+body {
+    h1 {
+        color: white;
+        text-align: center;
+    }
+    p {
+        color: white;
+        text-align: center;
+    }
+}
+
+main {
+    .block {
+        width: 375px;
+        .red{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 375px;
+            top: 96px;
+            h1 {
+                text-align: center;
+                color: white;
+            }
+            p {
+                display: flex;
+                color: white;
+            }
+        }
+        .pc {
+            display: flex;
+        }
+    }
+    .world {
+        width: 375px;
+        .women {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 375px;
+            position: relative;
+        }
+        .test {
+            display: flex;
+            h2 {
+                display: flex;
+                position: absolute;
+                text-align: center;
+                color: #e7816b;
+            }
+            p {
+                margin-top: 50px;
+                width: 375px;
+                text-align: center;
+                position: absolute;
+                display: flex;
+                color: #333136;
+            }
+        }
+    }
+    .ville {
+        height: 1428px;
+        width: 375px;
+        background-color: blue;
+    }
+
+
+
+
+
+
+
+    }
