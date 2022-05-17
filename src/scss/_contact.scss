@@ -47,7 +47,7 @@ body{
                     }
                     .main__form-button{
                         width: $WidthContainer;
-                        background-color: #f87266;
+                        background-color: #E7816B;
                         border: none;
                         border-bottom: 1px solid white;
                         
@@ -76,6 +76,59 @@ body{
             .main__link{
                 width: $WidthMob;
                 height: 1428px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                .main__link-button{
+                    width: 350px;
+                    height: 364px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .main__link-button_img{
+                        width: 202px;
+                        height: 202px;
+                    }
+                    .main__link-button_name{
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 26px;
+                        letter-spacing: 5px;
+                        text-transform: uppercase;
+                    }
+
+                    .main__link-button_button{
+                        background-color: #E7816B;
+                        color: white;
+                        width: 152px;
+                        height: 56px;
+                        border-radius: 8px;
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 22px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        text-align: center;
+                        border: none;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .foot{
+        height: 626px;
+        .foot__container{
+            justify-content: space-evenly;
+            .foot__contact{
+                display: none;
+            }
+            .foot__list-social{
+                height: 30px;
             }
         }
     }

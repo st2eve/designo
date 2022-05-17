@@ -29,11 +29,48 @@ body{
                     top: -100%;
                     background-color: #1D1C1E;
                     border-radius: 15px;
+                    display: flex;
+                    justify-content: center;
 
                     .foot__contact-project-img{
                         width: $WidthContainer;
                         background-color: #1D1C1E;
                         border-radius: 15px;
+                    }
+                    .foot__project{
+                        width: 279px;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 32px;
+
+                        .foot__title{
+                            background-color: transparent;
+                            font-size: 32px;
+                            font-weight: 500;
+                            line-height: 36px;
+                        }
+                        .foot__text{
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 25px;
+                        }
+                        .foot__button{
+                            background-color: #fff;
+                            width: 152px;
+                            height: 56px;
+                            border-radius: 8px;
+                            font-size: 15px;
+                            font-weight: 500;
+                            line-height: 22px;
+                            letter-spacing: 1px;
+                            text-transform: uppercase;
+                            border: none;
+                        }
                     }
                 }
             }
@@ -46,6 +83,12 @@ body{
                 display: flex;
                 justify-content: center;
                 gap: 16px;
+            }
+
+            .foot__bar{
+                width: $WidthContainer;
+                border: 1px solid white;
+                opacity: 0.1;
             }
 
             .foot__nav{
@@ -62,15 +105,25 @@ body{
                     display: flex;
                     flex-direction: column;
                     justify-content: space-around;
+                    
+                    .foot__sublist{
+                        
+                        a{
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
                 }
             }
             .foot__adress{
                 width: $WidthContainer;
                 text-align: center;
+                opacity: 0.5;
             }
             .foot__contact_us{
                 width: $WidthContainer;
                 text-align: center;
+                opacity: 0.5;
             }
             .foot__list-social{
                 width: 183px;

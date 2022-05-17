@@ -8,6 +8,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 
     .head__logo{
         width: 200px;
@@ -17,11 +18,11 @@ body{
     }
 
     .head__menu{
-        
+
         .head__submenu{
             border: 4px solid #1D1C1E;
             width: 24px;
-            height: 20px;
+            height: 12px;
             border-left: none;
             border-right: none;
             display: flex;
@@ -69,9 +70,23 @@ body{
             }
         }
     }
+    .head__burger{
+        width: 30px;
+        height: 30px;
+        opacity: 0;
+        position: absolute;
+        right: 32px;
+    }
 
-    .head__menu-link:active+.head__nav{
+    .head__burger:checked~.head__nav{
         display: flex;
+    }
+    .head__burger:checked+.head__menu{
+        visibility: hidden;
+    }
+    .head__burger:checked{
+        opacity: 1;
+        
     }
 
     @media (min-width: 768px) {
