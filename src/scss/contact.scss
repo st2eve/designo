@@ -2,5 +2,81 @@
 @import '_variables.scss';
 @import '_regular.scss';
 @import '_header.scss';
-
 @import '_footer.scss';
+
+body{
+
+    .main{
+        width: $WidthMob;
+
+        .main__container{
+            width: $WidthMob;
+
+            .main__form{
+                display: flex;
+                z-index: 4;
+
+                .main__form-container{
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    width: $WidthMob;
+                    color: #fff;
+                    justify-content: space-evenly;
+                    height: 764px;
+                    align-items: center;
+
+                    .main__title{
+                        width: $WidthContainer;
+                        text-align: center;
+                        font-weight: 500;
+                        font-size: 32px;
+                        line-height: 36px;
+                        margin-top: 40px;
+                    }
+                    .main__text{
+                        width: $WidthContainer;
+                        text-align: center;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                    .main__form-label{
+                        width: 290px;
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 26px;
+                        font-style: normal;
+                    }
+                    .main__form-button{
+                        width: $WidthContainer;
+                        background-color: #f87266;
+                        border: none;
+                        border-bottom: 1px solid white;
+                        
+                    }
+                }
+
+                .main__form-container :last-child{
+                    background-color: white;
+                    width: 152px;
+                    height: 56px;
+                    border-radius: 8px;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    margin: 20px 0 40px 0;
+                }
+
+                .main__img{
+                }
+            }
+
+            .main__link{
+
+            }
+        }
+    }
+}

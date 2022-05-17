@@ -141,6 +141,7 @@ body .head .head__nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 5;
 }
 body .head .head__nav .head__list {
   height: 125px;
@@ -267,4 +268,75 @@ body .foot .foot__container .foot__list-social .foot__sublist-social {
 }
 body .foot .foot__container .foot__list-social .foot__sublist-social .fa-brands {
   color: #E7816B;
+}
+body .main {
+  width: 375px;
+}
+body .main .main__container {
+  width: 375px;
+}
+body .main .main__container .main__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 4;
+}
+body .main .main__container .main__form .main__form-container {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 375px;
+  color: #fff;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 764px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .main .main__container .main__form .main__form-container .main__title {
+  width: 327px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 40px;
+}
+body .main .main__container .main__form .main__form-container .main__text {
+  width: 327px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+body .main .main__container .main__form .main__form-container .main__form-label {
+  width: 290px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  font-style: normal;
+}
+body .main .main__container .main__form .main__form-container .main__form-button {
+  width: 327px;
+  background-color: #f87266;
+  border: none;
+  border-bottom: 1px solid white;
+}
+body .main .main__container .main__form .main__form-container :last-child {
+  background-color: white;
+  width: 152px;
+  height: 56px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 20px 0 40px 0;
 }/*# sourceMappingURL=contact.css.map */
