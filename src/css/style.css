@@ -1,5 +1,6 @@
 @import url(_variables.scss);
 @import url(_regular.scss);
+@import url(_variables.scss);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -364,6 +365,205 @@ main .section__icons article .container__text p {
   text-align: center;
 }
 
+body h1 {
+  color: white;
+  text-align: center;
+}
+body p {
+  color: white;
+  text-align: center;
+}
+
+main {
+  width: 375px;
+}
+main .block {
+  width: 375px;
+}
+main .block .red {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 375px;
+  top: 96px;
+}
+main .block .red h1 {
+  text-align: center;
+  color: white;
+}
+main .block .red p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+main .block .pc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .world {
+  width: 375px;
+}
+main .world .women {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 375px;
+  position: relative;
+}
+main .world .test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .world .test h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  color: #e7816b;
+}
+main .world .test p {
+  margin-top: 50px;
+  width: 375px;
+  text-align: center;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333136;
+}
+main .ville {
+  height: 1428px;
+  width: 375px;
+  background-color: blue;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+body h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+}
+body h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+body h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+}
+
+body .main {
+  width: 375px;
+}
+body .main .main__container {
+  width: 375px;
+}
+body .main .main__container .main__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 4;
+}
+body .main .main__container .main__form .main__form-container {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 375px;
+  color: #fff;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 764px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .main .main__container .main__form .main__form-container .main__title {
+  width: 327px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 40px;
+}
+body .main .main__container .main__form .main__form-container .main__text {
+  width: 327px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+body .main .main__container .main__form .main__form-container .main__form-label {
+  width: 290px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  font-style: normal;
+}
+body .main .main__container .main__form .main__form-container .main__form-button {
+  width: 327px;
+  background-color: #f87266;
+  border: none;
+  border-bottom: 1px solid white;
+}
+body .main .main__container .main__form .main__form-container :last-child {
+  background-color: white;
+  width: 152px;
+  height: 56px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 20px 0 40px 0;
+}
+body .main .main__container .main__form .main__img {
+  color: white;
+}
+body .main .main__container .main__link {
+  width: 375px;
+  height: 1428px;
+}
+
 body .foot, body .foot .foot__container {
   width: 375px;
   height: 1005px;
@@ -466,86 +666,4 @@ body .foot .foot__container .foot__list-social .foot__sublist-social {
 }
 body .foot .foot__container .foot__list-social .foot__sublist-social .fa-brands {
   color: #E7816B;
-}
-body h1 {
-  color: white;
-  text-align: center;
-}
-body p {
-  color: white;
-  text-align: center;
-}
-
-main .block {
-  width: 375px;
-}
-main .block .red {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: absolute;
-  width: 375px;
-  top: 96px;
-}
-main .block .red h1 {
-  text-align: center;
-  color: white;
-}
-main .block .red p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: white;
-}
-main .block .pc {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-main .world {
-  width: 375px;
-}
-main .world .women {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: absolute;
-  width: 375px;
-  position: relative;
-}
-main .world .test {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-main .world .test h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  text-align: center;
-  color: #e7816b;
-}
-main .world .test p {
-  margin-top: 50px;
-  width: 375px;
-  text-align: center;
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #333136;
-}
-main .ville {
-  height: 1428px;
-  width: 375px;
-  background-color: blue;
 }/*# sourceMappingURL=style.css.map */
