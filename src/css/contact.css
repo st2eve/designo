@@ -339,4 +339,8 @@ body .main .main__container .main__form .main__form-container :last-child {
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 20px 0 40px 0;
+}
+body .main .main__container .main__link {
+  width: 375px;
+  height: 1428px;
 }/*# sourceMappingURL=contact.css.map */
