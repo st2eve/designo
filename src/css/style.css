@@ -459,9 +459,101 @@ main .world .test p {
   color: #333136;
 }
 main .ville {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
   height: 1428px;
   width: 375px;
-  background-color: blue;
+}
+main .ville .belgium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .ville .australia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .ville .kingdom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .ville .see {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 56px;
+  width: 152px;
+  background-color: #E7816B;
+  color: #FFFFFF;
+}
+main .ville .txt {
+  color: red;
+}
+main .trois {
+  width: 375px;
+}
+main .trois .photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .trois .real {
+  height: 545px;
+  position: relative;
+}
+main .trois .real img {
+  position: absolute;
+  z-index: 5;
+}
+main .trois .real .test {
+  position: absolute;
+  z-index: 6;
+}
+main .trois .real .test h3 {
+  color: #e7816b;
+  text-align: center;
+}
+main .trois .real .test p {
+  color: #333136;
 }
 
 body .foot, body .foot .foot__container {
