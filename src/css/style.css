@@ -239,10 +239,11 @@ main .section__frame .container__text button {
   border: none;
   width: 152px;
   height: 56px;
+  padding: 0;
 }
 main .section__frame .container__text button a {
   width: 100%;
-  padding: 30px;
+  padding: 15px;
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -277,6 +278,9 @@ main .section__design {
   gap: 24px;
   padding-top: 120px;
 }
+main .section__design .container {
+  position: relative;
+}
 main .section__design .container .container__img {
   width: 100%;
   height: 250px;
@@ -286,6 +290,12 @@ main .section__design .container .container__img img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+main .section__design .container .container__img img.desktop {
+  display: none;
+}
+main .section__design .container .container__img img.tablet {
+  display: none;
 }
 main .section__design .container .container__text {
   display: -webkit-box;
@@ -301,19 +311,24 @@ main .section__design .container .container__text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: absolute;
 }
-main .section__design .container .container__text h2 {
+main .section__design .container .container__text--web {
+  position: absolute;
+  top: 100px;
+  right: 60px;
+  text-align: center;
+}
+main .section__design .container .container__text--web h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
   line-height: 36px;
-  text-align: center;
   letter-spacing: 1.4px;
   color: #FFFFFF;
+  margin-bottom: 11.97px;
 }
-main .section__design .container .container__text h3 {
+main .section__design .container .container__text--web h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -322,7 +337,65 @@ main .section__design .container .container__text h3 {
   letter-spacing: 5px;
   color: #FFFFFF;
 }
-main .section__design .container .container__text h3 span {
+main .section__design .container .container__text--web h3 span {
+  padding-left: 16px;
+  color: #E7816B;
+}
+main .section__design .container .container__text--app {
+  position: absolute;
+  top: 100px;
+  right: 55px;
+  text-align: center;
+}
+main .section__design .container .container__text--app h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 1.4px;
+  color: #FFFFFF;
+  margin-bottom: 11.97px;
+}
+main .section__design .container .container__text--app h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+}
+main .section__design .container .container__text--app h3 span {
+  padding-left: 16px;
+  color: #E7816B;
+}
+main .section__design .container .container__text--graphic {
+  position: absolute;
+  top: 100px;
+  right: 36.5px;
+  text-align: center;
+}
+main .section__design .container .container__text--graphic h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 1.4px;
+  color: #FFFFFF;
+  margin-bottom: 11.97px;
+}
+main .section__design .container .container__text--graphic h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+}
+main .section__design .container .container__text--graphic h3 span {
   padding-left: 16px;
   color: #E7816B;
 }
@@ -377,6 +450,119 @@ main .section__icons article .container__text p {
   line-height: 26px;
   color: #333136;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  body .section__frame {
+    width: 689px;
+  }
+  body .section__frame .container__text {
+    width: 573px;
+    padding-top: 60px;
+  }
+  body .section__frame .container__text h1 {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 25px;
+  }
+  body .section__frame .container__text p {
+    width: 445px;
+    text-align: center;
+    margin-right: 0;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+  }
+  body .section__design {
+    width: 689px;
+    padding: 120px 0 120px 0;
+  }
+  body .section__icons {
+    width: 689px;
+    padding: 0;
+  }
+  body .section__icons article {
+    height: 202px;
+    padding: 0;
+    margin-bottom: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 48px;
+  }
+  body .section__icons article .container__img {
+    margin: 0;
+    padding: 0;
+  }
+  body .section__icons article .container__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 439px;
+  }
+  body .section__icons article .container__text h3 {
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  body .section__icons article .container__text p {
+    width: 100%;
+    text-align: left;
+  }
+}
+@media (min-width: 1440px) {
+  body .section__frame {
+    width: 1111px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    border-radius: 15px;
+  }
+  body .section__icons {
+    min-width: 1111px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .section__icons article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 500px;
+  }
+  body .section__icons article .container__text p {
+    width: 350px;
+    text-align: center;
+  }
 }
 
 body h1 {
