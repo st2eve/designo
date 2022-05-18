@@ -15,7 +15,7 @@ Award-winning custom designs and digital branding solutions
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Light Peach | <img src="https://via.placeholder.com/10/FFAD9B?text=+" style="height: 10px; width:10px;"/> #FFAD9B |
+| Light Peach | <img src="https://via.placeholder.com/10/FFAD9B?text=test" style="height: 10px; width:10px;"/> #FFAD9B |
 | Dark Grey | <img src="https://via.placeholder.com/10/333136?text=+" style="height: 10px; width:10px;"/> #333136 |
 | Light Grey | <img src="https://via.placeholder.com/10/f1f3f5?text=+" style="height: 10px; width:10px;"/> #F1F3F5 |
 
