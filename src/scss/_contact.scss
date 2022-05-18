@@ -1,5 +1,4 @@
 @import '_variables.scss';
-@import '_regular.scss';
 
 body{
 
@@ -78,7 +77,7 @@ body{
                 height: 1428px;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-evenly;
+                justify-content: space-around;
 
                 .main__link-button{
                     width: 350px;
@@ -120,15 +119,147 @@ body{
         }
     }
 
-    .foot{
+    .foot-contact{
+        width: $WidthMob;
         height: 626px;
-        .foot__container{
+        background-color: #1D1C1E;
+
+        .foot__container-contact{
+            @extend .foot-contact;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             justify-content: space-evenly;
-            .foot__contact{
+
+            .foot__contact-contact{
+                width: $WidthMob;
+                height: 379px;
                 display: none;
+
+                .foot__contact-bg-contact{
+                    height: 50%;
+                }
+                .foot__contact-project-contact{
+                    width: $WidthContainer;
+                    position: relative;
+                    left: 24px;
+                    top: -100%;
+                    background-color: #1D1C1E;
+                    border-radius: 15px;
+                    display: flex;
+                    justify-content: center;
+
+                    .foot__contact-project-img-contact{
+                        width: $WidthContainer;
+                        background-color: #1D1C1E;
+                        border-radius: 15px;
+                    }
+                    .foot__project-contact{
+                        width: 279px;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 32px;
+
+                        .foot__title-contact{
+                            background-color: transparent;
+                            font-size: 32px;
+                            font-weight: 500;
+                            line-height: 36px;
+                        }
+                        .foot__text-contact{
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 25px;
+                        }
+                        .foot__button-contact{
+                            background-color: #fff;
+                            width: 152px;
+                            height: 56px;
+                            border-radius: 8px;
+                            font-size: 15px;
+                            font-weight: 500;
+                            line-height: 22px;
+                            letter-spacing: 1px;
+                            text-transform: uppercase;
+                            border: none;
+                        }
+                    }
+                }
             }
-            .foot__list-social{
+            .foot__contact-contact :first-child{
+                background-color: white;
+            }
+
+            .foot__logo-contact{
+                width: $WidthMob;
+                display: flex;
+                justify-content: center;
+                gap: 16px;
+            }
+
+            .foot__bar-contact{
+                width: $WidthContainer;
+                border: 1px solid white;
+                opacity: 0.1;
+            }
+
+            .foot__nav-contact{
+                width: $WidthMob;
+                height: 106px;
+                text-align: center;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 14px;
+                letter-spacing: 2px;
+
+                .foot__list-contact{
+                    height: 106px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    
+                    .foot__sublist-contact{
+                        
+                        a{
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .foot__adress-contact{
+                width: $WidthContainer;
+                text-align: center;
+                opacity: 0.5;
+            }
+            .foot__contact_us-contact{
+                width: $WidthContainer;
+                text-align: center;
+                opacity: 0.5;
+            }
+            .foot__list-social-contact{
+                width: 183px;
                 height: 30px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                .foot__sublist-social-contact{
+                    width: 24px;
+                    height: 24px;
+                    
+                    .fa-brands{
+                        color: #E7816B;
+                    }
+                }
+
+                
             }
         }
     }

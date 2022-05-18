@@ -1,0 +1,155 @@
+@import '_variables.scss';
+
+body {
+
+    .main {
+        width: $WidthMob;
+        height: 2342px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 50px;
+
+        .main__location{
+            width: $WidthMob;
+            height: 714px;
+            
+
+            .main__map{
+                width: $WidthMob;
+                height: 320px;
+
+                .main_map-img{
+                    width: $WidthMob;
+                    height: 320px;
+                }
+            }
+
+            .main__adress{
+                width: $WidthMob;
+                display: flex;
+                justify-content: center;
+                position: relative;
+
+                .main__adress-bg{
+                    width: $WidthContainer;
+                    height: 394px;
+                    position: initial;
+                    z-index: 5;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+
+                    .main__country{
+                        font-size: 32px;
+                        font-weight: 500;
+                        line-height: 36px;
+                        color: #E7816B;
+                    }
+    
+                    .main__adress-block{
+                        text-align: center;
+
+                        .main__adress-country{
+                            font-size: 15px;
+                            font-weight: 700;
+                            line-height: 25px;
+                            color: #333136;
+                        }
+    
+                        .main__adress-text{
+                            @extend .main__adress-country;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .main__bg{
+                    width: $WidthMob;
+                    height: 394px;
+                    position: absolute;
+                    z-index: 4;
+                }
+            }
+        }
+    }
+
+    .foot{
+        width: $WidthMob;
+        height: 1005px;
+        background-color: #1D1C1E;
+        .foot__container{
+            justify-content: space-between;
+
+            .foot__contact{
+                width: $WidthMob;
+                height: 379px;
+                display: block;
+        
+                .foot__contact-bg{
+                    height: 50%;
+                }
+                .foot__contact-project{
+                    width: $WidthContainer;
+                    position: relative;
+                    left: 24px;
+                    top: -100%;
+                    background-color: #1D1C1E;
+                    border-radius: 15px;
+                    display: flex;
+                    justify-content: center;
+        
+                    .foot__contact-project-img{
+                        width: $WidthContainer;
+                        background-color: #1D1C1E;
+                        border-radius: 15px;
+                    }
+                    .foot__project{
+                        width: 279px;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 32px;
+        
+                        .foot__title{
+                            background-color: transparent;
+                            font-size: 32px;
+                            font-weight: 500;
+                            line-height: 36px;
+                        }
+                        .foot__text{
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 25px;
+                        }
+                        .foot__button{
+                            background-color: #fff;
+                            width: 152px;
+                            height: 56px;
+                            border-radius: 8px;
+                            font-size: 15px;
+                            font-weight: 500;
+                            line-height: 22px;
+                            letter-spacing: 1px;
+                            text-transform: uppercase;
+                            border: none;
+                        }
+                    }
+                }
+            }
+            .foot__list-social{
+                width: 183px;
+                height: 90px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+            }
+        }
+    }
+}
