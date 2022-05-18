@@ -1,6 +1,5 @@
 @import url(_variables.scss);
 @import url(_regular.scss);
-@import url(_variables.scss);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -646,9 +645,101 @@ main .world .test p {
   color: #333136;
 }
 main .ville {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
   height: 1428px;
   width: 375px;
-  background-color: blue;
+}
+main .ville .belgium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .ville .australia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .ville .kingdom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .ville .see {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 56px;
+  width: 152px;
+  background-color: #E7816B;
+  color: #FFFFFF;
+}
+main .ville .txt {
+  color: red;
+}
+main .trois {
+  width: 375px;
+}
+main .trois .photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .trois .real {
+  height: 545px;
+  position: relative;
+}
+main .trois .real img {
+  position: absolute;
+  z-index: 5;
+}
+main .trois .real .test {
+  position: absolute;
+  z-index: 6;
+}
+main .trois .real .test h3 {
+  color: #e7816b;
+  text-align: center;
+}
+main .trois .real .test p {
+  color: #333136;
 }
 
 body .foot, body .foot .foot__container {
@@ -814,40 +905,6 @@ body .foot .foot__container .foot__list-social .foot__sublist-social {
 body .foot .foot__container .foot__list-social .foot__sublist-social .fa-brands {
   color: #E7816B;
 }
-body {
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-body h1 {
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 48px;
-}
-body h2 {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 48px;
-  letter-spacing: 2px;
-}
-body h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-  letter-spacing: 5px;
-}
-
 body .main {
   width: 375px;
 }
@@ -932,9 +989,8 @@ body .main .main__container .main__link {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 body .main .main__container .main__link .main__link-button {
   width: 350px;
@@ -978,22 +1034,13 @@ body .main .main__container .main__link .main__link-button .main__link-button_bu
   text-align: center;
   border: none;
 }
-body .foot, body .foot .foot__container {
+body .foot-contact, body .foot-contact .foot__container-contact {
+  width: 375px;
   height: 626px;
+  background-color: #1D1C1E;
 }
-body .foot .foot__container {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-body .foot .foot__container .foot__contact {
-  display: none;
-}
-body .foot .foot__container .foot__list-social {
-  height: 30px;
-}
-
-main {
+body .foot-contact .foot__container-contact {
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1004,9 +1051,42 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
-main .section__app__header {
+body .foot-contact .foot__container-contact .foot__contact-contact {
   width: 375px;
+  height: 379px;
+  display: none;
+}
+body .foot-contact .foot__container-contact .foot__contact-contact .foot__contact-bg-contact {
+  height: 50%;
+}
+body .foot-contact .foot__container-contact .foot__contact-contact .foot__contact-project-contact {
+  width: 327px;
+  position: relative;
+  left: 24px;
+  top: -100%;
+  background-color: #1D1C1E;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .foot-contact .foot__container-contact .foot__contact-contact .foot__contact-project-contact .foot__contact-project-img-contact {
+  width: 327px;
+  background-color: #1D1C1E;
+  border-radius: 15px;
+}
+body .foot-contact .foot__container-contact .foot__contact-contact .foot__contact-project-contact .foot__project-contact {
+  width: 279px;
+  height: 100%;
+  position: absolute;
+  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1014,6 +1094,181 @@ main .section__app__header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 32px;
+}
+body .foot-contact .foot__container-contact .foot__contact-contact .foot__contact-project-contact .foot__project-contact .foot__title-contact {
+  background-color: transparent;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+}
+body .foot-contact .foot__container-contact .foot__contact-contact .foot__contact-project-contact .foot__project-contact .foot__text-contact {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+body .foot-contact .foot__container-contact .foot__contact-contact .foot__contact-project-contact .foot__project-contact .foot__button-contact {
+  background-color: #fff;
+  width: 152px;
+  height: 56px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+}
+body .foot-contact .foot__container-contact .foot__contact-contact :first-child {
+  background-color: white;
+}
+body .foot-contact .foot__container-contact .foot__logo-contact {
+  width: 375px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+}
+body .foot-contact .foot__container-contact .foot__bar-contact {
+  width: 327px;
+  border: 1px solid white;
+  opacity: 0.1;
+}
+body .foot-contact .foot__container-contact .foot__nav-contact {
+  width: 375px;
+  height: 106px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+body .foot-contact .foot__container-contact .foot__nav-contact .foot__list-contact {
+  height: 106px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+body .foot-contact .foot__container-contact .foot__nav-contact .foot__list-contact .foot__sublist-contact a {
+  text-decoration: none;
+  color: white;
+}
+body .foot-contact .foot__container-contact .foot__adress-contact {
+  width: 327px;
+  text-align: center;
+  opacity: 0.5;
+}
+body .foot-contact .foot__container-contact .foot__contact_us-contact {
+  width: 327px;
+  text-align: center;
+  opacity: 0.5;
+}
+body .foot-contact .foot__container-contact .foot__list-social-contact {
+  width: 183px;
+  height: 30px;
+<<<<<<< HEAD
+}
+
+main {
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body .foot-contact .foot__container-contact .foot__list-social-contact .foot__sublist-social-contact {
+  width: 24px;
+  height: 24px;
+}
+body .foot-contact .foot__container-contact .foot__list-social-contact .foot__sublist-social-contact .fa-brands {
+  color: #E7816B;
+}
+
+body .main {
+  width: 375px;
+  height: 2342px;
+>>>>>>> 18c91bcbcaacc9140a2309d487ba95050a5aa412
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+<<<<<<< HEAD
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .section__app__header {
+=======
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+body .main .main__location {
+  width: 375px;
+  height: 714px;
+}
+body .main .main__location .main__map {
+  width: 375px;
+  height: 320px;
+}
+body .main .main__location .main__map .main_map-img {
+  width: 375px;
+  height: 320px;
+}
+body .main .main__location .main__adress {
+>>>>>>> 18c91bcbcaacc9140a2309d487ba95050a5aa412
+  width: 375px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+<<<<<<< HEAD
+=======
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+body .main .main__location .main__adress .main__adress-bg {
+  width: 327px;
+  height: 394px;
+  position: initial;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+>>>>>>> 18c91bcbcaacc9140a2309d487ba95050a5aa412
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+<<<<<<< HEAD
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1142,6 +1397,82 @@ main .section__app__design .container .container__img img {
      object-fit: cover;
 }
 main .section__app__design .container .container__text {
+=======
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+body .main .main__location .main__adress .main__adress-bg .main__country {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #E7816B;
+}
+body .main .main__location .main__adress .main__adress-bg .main__adress-block {
+  text-align: center;
+}
+body .main .main__location .main__adress .main__adress-bg .main__adress-block .main__adress-country, body .main .main__location .main__adress .main__adress-bg .main__adress-block .main__adress-text {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #333136;
+}
+body .main .main__location .main__adress .main__adress-bg .main__adress-block .main__adress-text {
+  font-weight: 400;
+}
+body .main .main__location .main__adress .main__bg {
+  width: 375px;
+  height: 394px;
+  position: absolute;
+  z-index: 4;
+}
+body .foot, body .foot .foot__container {
+  width: 375px;
+  height: 1005px;
+  background-color: #1D1C1E;
+}
+body .foot .foot__container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body .foot .foot__container .foot__contact {
+  width: 375px;
+  height: 379px;
+  display: block;
+}
+body .foot .foot__container .foot__contact .foot__contact-bg {
+  height: 50%;
+}
+body .foot .foot__container .foot__contact .foot__contact-project {
+  width: 327px;
+  position: relative;
+  left: 24px;
+  top: -100%;
+  background-color: #1D1C1E;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .foot .foot__container .foot__contact .foot__contact-project .foot__contact-project-img {
+  width: 327px;
+  background-color: #1D1C1E;
+  border-radius: 15px;
+}
+body .foot .foot__container .foot__contact .foot__contact-project .foot__project {
+  width: 279px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+>>>>>>> 18c91bcbcaacc9140a2309d487ba95050a5aa412
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1155,6 +1486,7 @@ main .section__app__design .container .container__text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+<<<<<<< HEAD
 }
 main .section__app__design .container .container__text--web {
   position: absolute;
@@ -1375,4 +1707,43 @@ main .section__app__design .container .container__text--graphic h3 span {
     width: 350px;
     text-align: center;
   }
+=======
+  gap: 32px;
+}
+body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__title {
+  background-color: transparent;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+}
+body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__button {
+  background-color: #fff;
+  width: 152px;
+  height: 56px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+}
+body .foot .foot__container .foot__list-social {
+  width: 183px;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+>>>>>>> 18c91bcbcaacc9140a2309d487ba95050a5aa412
 }/*# sourceMappingURL=style.css.map */

@@ -10,6 +10,7 @@ body {
     }
 }
 
+
 main {
     width: 375px;
     .block {
@@ -33,6 +34,9 @@ main {
             display: flex;
         }
     }
+
+
+
     .world {
         width: 375px;
         .women {
@@ -60,16 +64,68 @@ main {
             }
         }
     }
+
+
+
     .ville {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
         height: 1428px;
         width: 375px;
-        background-color: blue;
+        .belgium {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .australia {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .kingdom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .see {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            height: 56px;
+            width: 152px;
+            background-color: #E7816B;
+            color: #FFFFFF;
+        }
+        .txt {
+            color: red;
+        }
     }
-
-
-
-
-
-
-
+    .trois {
+        width: 375px;
+        .photo {
+            display: flex;
+        }
+        .real {
+            height: 545px;
+            position: relative;
+            img {
+                position: absolute;
+                z-index: 5;
+            }
+            .test {
+                position: absolute;
+                z-index: 6;
+                h3 {
+                    color: #e7816b;
+                    text-align: center;
+                }
+                p {
+                    color: #333136;
+                }
+            }
+        }
     }
+}
