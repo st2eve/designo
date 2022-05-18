@@ -10,8 +10,6 @@ Award-winning custom designs and digital branding solutions
 | Peach | <img src="https://via.placeholder.com/10/E7816B?text=+" style="height: 10px; width:10px;"/> #E7816B|
 | Black | <img src="https://via.placeholder.com/10/1D1C1E?text=+" style="height: 10px; width:10px;"/> #1D1C1E|
 | White | <img src="https://via.placeholder.com/10/ffffff?text=+" style="height: 10px; width:10px;"/> #FFFFFF |
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
-
 
 ## Secondary colors
 
