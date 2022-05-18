@@ -30,6 +30,8 @@ Award-winning custom designs and digital branding solutions
 
 **Client:** HTML, CSS, Saas
 
+**Server:** N/A
+
 
 ## Used By
 
