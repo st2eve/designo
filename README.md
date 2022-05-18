@@ -7,17 +7,19 @@ Award-winning custom designs and digital branding solutions
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Peach | <img src="https://via.placeholder.com/15/E7816B/000000?text=+" style="height: 10px; width:10px;"/> #E7816B|
+| Peach | <img src="https://via.placeholder.com/10/E7816B?text=+" style="height: 10px; width:10px;"/> #E7816B|
 | Black | <img src="https://via.placeholder.com/10/1D1C1E?text=+" style="height: 10px; width:10px;"/> #1D1C1E|
 | White | <img src="https://via.placeholder.com/10/ffffff?text=+" style="height: 10px; width:10px;"/> #FFFFFF |
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
+
 
 ## Secondary colors
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Light Peach | <img src="https://via.placeholder.com/10/FFAD9B" style="height: 10px; width:10px;"/> #FFAD9B |
+| Light Peach | <img src="https://via.placeholder.com/10/FFAD9B?text=+" style="height: 10px; width:10px;"/> #FFAD9B |
 | Dark Grey | <img src="https://via.placeholder.com/10/333136?text=+" style="height: 10px; width:10px;"/> #333136 |
-| Light Grey | <img src="https://via.placeholder.com/10/F1F3F5?text=+" style="height: 10px; width:10px;"/> #F1F3F5 |
+| Light Grey | <img src="https://via.placeholder.com/10/f1f3f5?text=+" style="height: 10px; width:10px;"/> #F1F3F5 |
 
 ## Authors
 
