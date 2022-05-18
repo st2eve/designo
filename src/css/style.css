@@ -194,7 +194,7 @@ main {
       -ms-flex-align: center;
           align-items: center;
 }
-main .section__frame {
+main .section__home__frame {
   width: 375px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,13 +207,13 @@ main .section__frame {
       -ms-flex-align: center;
           align-items: center;
 }
-main .section__frame .container__text {
-  padding-top: 80px;
+main .section__home__frame .container__text {
   position: absolute;
   width: 327px;
   text-align: center;
+  padding-top: 80px;
 }
-main .section__frame .container__text h1 {
+main .section__home__frame .container__text h1 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -221,9 +221,9 @@ main .section__frame .container__text h1 {
   line-height: 36px;
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
-main .section__frame .container__text p {
+main .section__home__frame .container__text p {
   font-family: "Jost";
   font-style: normal;
   font-weight: 400;
@@ -233,7 +233,7 @@ main .section__frame .container__text p {
   color: #FFFFFF;
   margin-bottom: 24px;
 }
-main .section__frame .container__text button {
+main .section__home__frame .container__text button {
   background: #FFFFFF;
   border-radius: 8px;
   border: none;
@@ -241,7 +241,7 @@ main .section__frame .container__text button {
   height: 56px;
   padding: 0;
 }
-main .section__frame .container__text button a {
+main .section__home__frame .container__text button a {
   width: 100%;
   padding: 15px;
   font-family: "Jost";
@@ -253,17 +253,17 @@ main .section__frame .container__text button a {
   color: #333136;
   text-decoration: none;
 }
-main .section__frame .container__img {
+main .section__home__frame .container__img {
   width: 100%;
   height: 843px;
 }
-main .section__frame .container__img img {
+main .section__home__frame .container__img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .section__design {
+main .section__home__design {
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -278,26 +278,26 @@ main .section__design {
   gap: 24px;
   padding-top: 120px;
 }
-main .section__design .container {
+main .section__home__design .container {
   position: relative;
 }
-main .section__design .container .container__img {
+main .section__home__design .container .container__img {
   width: 100%;
   height: 250px;
 }
-main .section__design .container .container__img img {
+main .section__home__design .container .container__img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .section__design .container .container__img img.desktop {
+main .section__home__design .container .container__img img.desktop {
   display: none;
 }
-main .section__design .container .container__img img.tablet {
+main .section__home__design .container .container__img img.tablet {
   display: none;
 }
-main .section__design .container .container__text {
+main .section__home__design .container .container__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -312,13 +312,13 @@ main .section__design .container .container__text {
       -ms-flex-pack: center;
           justify-content: center;
 }
-main .section__design .container .container__text--web {
+main .section__home__design .container .container__text--web {
   position: absolute;
   top: 100px;
   right: 60px;
   text-align: center;
 }
-main .section__design .container .container__text--web h2 {
+main .section__home__design .container .container__text--web h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -328,7 +328,7 @@ main .section__design .container .container__text--web h2 {
   color: #FFFFFF;
   margin-bottom: 11.97px;
 }
-main .section__design .container .container__text--web h3 {
+main .section__home__design .container .container__text--web h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -337,17 +337,17 @@ main .section__design .container .container__text--web h3 {
   letter-spacing: 5px;
   color: #FFFFFF;
 }
-main .section__design .container .container__text--web h3 span {
+main .section__home__design .container .container__text--web h3 span {
   padding-left: 16px;
   color: #E7816B;
 }
-main .section__design .container .container__text--app {
+main .section__home__design .container .container__text--app {
   position: absolute;
   top: 100px;
   right: 55px;
   text-align: center;
 }
-main .section__design .container .container__text--app h2 {
+main .section__home__design .container .container__text--app h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -357,7 +357,7 @@ main .section__design .container .container__text--app h2 {
   color: #FFFFFF;
   margin-bottom: 11.97px;
 }
-main .section__design .container .container__text--app h3 {
+main .section__home__design .container .container__text--app h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -366,17 +366,17 @@ main .section__design .container .container__text--app h3 {
   letter-spacing: 5px;
   color: #FFFFFF;
 }
-main .section__design .container .container__text--app h3 span {
+main .section__home__design .container .container__text--app h3 span {
   padding-left: 16px;
   color: #E7816B;
 }
-main .section__design .container .container__text--graphic {
+main .section__home__design .container .container__text--graphic {
   position: absolute;
   top: 100px;
   right: 36.5px;
   text-align: center;
 }
-main .section__design .container .container__text--graphic h2 {
+main .section__home__design .container .container__text--graphic h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -386,7 +386,7 @@ main .section__design .container .container__text--graphic h2 {
   color: #FFFFFF;
   margin-bottom: 11.97px;
 }
-main .section__design .container .container__text--graphic h3 {
+main .section__home__design .container .container__text--graphic h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -395,30 +395,30 @@ main .section__design .container .container__text--graphic h3 {
   letter-spacing: 5px;
   color: #FFFFFF;
 }
-main .section__design .container .container__text--graphic h3 span {
+main .section__home__design .container .container__text--graphic h3 span {
   padding-left: 16px;
   color: #E7816B;
 }
-main .section__icons {
+main .section__home__icons {
   padding-top: 120px;
   width: 375px;
 }
-main .section__icons article {
+main .section__home__icons article {
   padding-bottom: 80px;
 }
-main .section__icons article .container__img {
+main .section__home__icons article .container__img {
   margin: 0 auto;
   width: 202px;
   height: 202px;
   padding-bottom: 48px;
 }
-main .section__icons article .container__img img {
+main .section__home__icons article .container__img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .section__icons article .container__text {
+main .section__home__icons article .container__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -430,7 +430,7 @@ main .section__icons article .container__text {
       -ms-flex-align: center;
           align-items: center;
 }
-main .section__icons article .container__text h3 {
+main .section__home__icons article .container__text h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -440,7 +440,7 @@ main .section__icons article .container__text h3 {
   color: #333136;
   margin-bottom: 32px;
 }
-main .section__icons article .container__text p {
+main .section__home__icons article .container__text p {
   width: 327px;
   height: 104px;
   font-family: "Jost";
@@ -453,19 +453,19 @@ main .section__icons article .container__text p {
 }
 
 @media (min-width: 768px) {
-  body .section__frame {
+  body .section__home__frame {
     width: 689px;
   }
-  body .section__frame .container__text {
+  body .section__home__frame .container__text {
     width: 573px;
     padding-top: 60px;
   }
-  body .section__frame .container__text h1 {
+  body .section__home__frame .container__text h1 {
     font-size: 48px;
     line-height: 48px;
     margin-bottom: 25px;
   }
-  body .section__frame .container__text p {
+  body .section__home__frame .container__text p {
     width: 445px;
     text-align: center;
     margin-right: 0;
@@ -474,15 +474,15 @@ main .section__icons article .container__text p {
     margin: 0 auto;
     margin-bottom: 19px;
   }
-  body .section__design {
+  body .section__home__design {
     width: 689px;
     padding: 120px 0 120px 0;
   }
-  body .section__icons {
+  body .section__home__icons {
     width: 689px;
     padding: 0;
   }
-  body .section__icons article {
+  body .section__home__icons article {
     height: 202px;
     padding: 0;
     margin-bottom: 32px;
@@ -495,11 +495,11 @@ main .section__icons article .container__text p {
             flex-direction: row;
     gap: 48px;
   }
-  body .section__icons article .container__img {
+  body .section__home__icons article .container__img {
     margin: 0;
     padding: 0;
   }
-  body .section__icons article .container__text {
+  body .section__home__icons article .container__text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -512,17 +512,17 @@ main .section__icons article .container__text p {
             justify-content: center;
     width: 439px;
   }
-  body .section__icons article .container__text h3 {
+  body .section__home__icons article .container__text h3 {
     margin-bottom: 16px;
     text-align: left;
   }
-  body .section__icons article .container__text p {
+  body .section__home__icons article .container__text p {
     width: 100%;
     text-align: left;
   }
 }
 @media (min-width: 1440px) {
-  body .section__frame {
+  body .section__home__frame {
     width: 1111px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -533,7 +533,7 @@ main .section__icons article .container__text p {
             flex-direction: row;
     border-radius: 15px;
   }
-  body .section__icons {
+  body .section__home__icons {
     min-width: 1111px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -546,7 +546,7 @@ main .section__icons article .container__text p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  body .section__icons article {
+  body .section__home__icons article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -559,7 +559,7 @@ main .section__icons article .container__text p {
             align-items: center;
     height: 500px;
   }
-  body .section__icons article .container__text p {
+  body .section__home__icons article .container__text p {
     width: 350px;
     text-align: center;
   }
@@ -1005,7 +1005,7 @@ main {
       -ms-flex-align: center;
           align-items: center;
 }
-main .section__app {
+main .section__app__header {
   width: 375px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1019,12 +1019,12 @@ main .section__app {
           align-items: center;
   padding: 0;
 }
-main .section__app .container__text {
+main .section__app__header .container__text {
   padding-top: 105px;
   position: absolute;
   text-align: center;
 }
-main .section__app .container__text h1 {
+main .section__app__header .container__text h1 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -1034,7 +1034,7 @@ main .section__app .container__text h1 {
   color: #FFFFFF;
   margin-bottom: 24px;
 }
-main .section__app .container__text p {
+main .section__app__header .container__text p {
   width: 327px;
   font-family: "Jost";
   font-style: normal;
@@ -1044,17 +1044,17 @@ main .section__app .container__text p {
   text-align: center;
   color: #FFFFFF;
 }
-main .section__app .container__img {
+main .section__app__header .container__img {
   width: 100%;
   height: 320px;
 }
-main .section__app .container__img img {
+main .section__app__header .container__img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .section__frame {
+main .section__app__frame {
   padding-top: 96px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1063,35 +1063,35 @@ main .section__frame {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 40px;
   width: 375px;
 }
-main .section__frame .container {
+main .section__app__frame .container {
   width: 327px;
-  height: 478px;
   margin: 0;
+  height: 478px;
 }
-main .section__frame .container .container__img {
+main .section__app__frame .container .container__img {
   width: 100%;
   height: 320px;
 }
-main .section__frame .container .container__img img {
+main .section__app__frame .container .container__img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
-main .section__frame .container .container__text {
+main .section__app__frame .container .container__text {
+  padding: 32px 0 32px 0;
   border-radius: 0 0 15px 15px;
   width: 327px;
   background: #FDF3F0;
 }
-main .section__frame .container .container__text h2 {
-  margin-top: 32px;
+main .section__app__frame .container .container__text h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -1102,8 +1102,8 @@ main .section__frame .container .container__text h2 {
   color: #E7816B;
   margin-bottom: 16px;
 }
-main .section__frame .container .container__text p {
-  margin-bottom: 0;
+main .section__app__frame .container .container__text p {
+  margin: 0 auto;
   width: 267.21px;
   font-family: "Jost";
   font-style: normal;
@@ -1113,7 +1113,7 @@ main .section__frame .container .container__text p {
   text-align: center;
   color: #333136;
 }
-main .section__design {
+main .section__app__design {
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1126,22 +1126,22 @@ main .section__design {
       -ms-flex-align: center;
           align-items: center;
   gap: 24px;
-  padding-top: 96px;
+  padding: 96px 0 96px 0;
 }
-main .section__design .container {
+main .section__app__design .container {
   position: relative;
 }
-main .section__design .container .container__img {
+main .section__app__design .container .container__img {
   width: 100%;
   height: 250px;
 }
-main .section__design .container .container__img img {
+main .section__app__design .container .container__img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .section__design .container .container__text {
+main .section__app__design .container .container__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1156,13 +1156,13 @@ main .section__design .container .container__text {
       -ms-flex-pack: center;
           justify-content: center;
 }
-main .section__design .container .container__text--web {
+main .section__app__design .container .container__text--web {
   position: absolute;
   top: 100px;
   right: 60px;
   text-align: center;
 }
-main .section__design .container .container__text--web h2 {
+main .section__app__design .container .container__text--web h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -1172,7 +1172,7 @@ main .section__design .container .container__text--web h2 {
   color: #FFFFFF;
   margin-bottom: 11.97px;
 }
-main .section__design .container .container__text--web h3 {
+main .section__app__design .container .container__text--web h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -1181,17 +1181,17 @@ main .section__design .container .container__text--web h3 {
   letter-spacing: 5px;
   color: #FFFFFF;
 }
-main .section__design .container .container__text--web h3 span {
+main .section__app__design .container .container__text--web h3 span {
   padding-left: 16px;
   color: #E7816B;
 }
-main .section__design .container .container__text--graphic {
+main .section__app__design .container .container__text--graphic {
   position: absolute;
   top: 100px;
   right: 36.5px;
   text-align: center;
 }
-main .section__design .container .container__text--graphic h2 {
+main .section__app__design .container .container__text--graphic h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -1201,7 +1201,7 @@ main .section__design .container .container__text--graphic h2 {
   color: #FFFFFF;
   margin-bottom: 11.97px;
 }
-main .section__design .container .container__text--graphic h3 {
+main .section__app__design .container .container__text--graphic h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -1210,7 +1210,169 @@ main .section__design .container .container__text--graphic h3 {
   letter-spacing: 5px;
   color: #FFFFFF;
 }
-main .section__design .container .container__text--graphic h3 span {
+main .section__app__design .container .container__text--graphic h3 span {
   padding-left: 16px;
   color: #E7816B;
+}
+
+@media (min-width: 768px) {
+  body .section__app__header {
+    width: 689px;
+    height: 282px;
+    border-radius: 15px;
+  }
+  body .section__app__header .container__text {
+    width: 573px;
+    padding-top: 75px;
+  }
+  body .section__app__header .container__text h1 {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 25px;
+  }
+  body .section__app__header .container__text p {
+    width: 445px;
+    text-align: center;
+    margin-right: 0;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 auto;
+  }
+  body .section__app__frame {
+    width: 689px;
+    padding: 120px 0 120px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 32px;
+  }
+  body .section__app__frame .container {
+    width: 689px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 310px;
+  }
+  body .section__app__frame .container .container__img {
+    width: 50%;
+    height: 310px;
+  }
+  body .section__app__frame .container .container__img img {
+    border-radius: 0 0 15px;
+  }
+  body .section__app__frame .container .container__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    height: 310px;
+    padding: 0;
+    border-radius: 15px;
+  }
+  body .section__app__icons {
+    width: 689px;
+    padding: 0;
+  }
+  body .section__app__icons article {
+    height: 202px;
+    padding: 0;
+    margin-bottom: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 48px;
+  }
+  body .section__app__icons article .container__img {
+    margin: 0;
+    padding: 0;
+  }
+  body .section__app__icons article .container__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 439px;
+  }
+  body .section__app__icons article .container__text h3 {
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  body .section__app__icons article .container__text p {
+    width: 100%;
+    text-align: left;
+  }
+}
+@media (min-width: 1440px) {
+  body .section__app__frame {
+    width: 1111px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    border-radius: 15px;
+  }
+  body .section__app__icons {
+    min-width: 1111px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .section__app__icons article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 500px;
+  }
+  body .section__app__icons article .container__text p {
+    width: 350px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */

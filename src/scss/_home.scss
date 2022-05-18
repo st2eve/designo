@@ -1,10 +1,8 @@
- 
-
-main{
+ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    .section__frame {
+    .section__home__frame {
         width: 375px;
         display: flex;
         flex-direction: column;
@@ -13,6 +11,7 @@ main{
             position: absolute;
             width: 327px;
             text-align: center;
+            padding-top: 80px;
             h1{
                 font-family: 'Jost';
                 font-style: normal;
@@ -21,7 +20,7 @@ main{
                 line-height: 36px;
                 text-align: center;
                 color: #FFFFFF;
-                margin-bottom: 14px;   
+                margin-bottom: 20px;   
                 }
             p {
                 font-family: 'Jost';
@@ -64,7 +63,7 @@ main{
             }
         }
     }
-    .section__design {
+    .section__home__design {
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -184,7 +183,7 @@ main{
             } 
         }
     }
-    .section__icons{
+    .section__home__icons{
         padding-top: 120px;
         width: 375px;
         article {
@@ -232,7 +231,7 @@ main{
 
 body {
     @media (min-width: 768px) {
-        .section__frame {
+        .section__home__frame {
             width: 689px; 
             .container__text {
                 width: 573px;
@@ -253,12 +252,12 @@ body {
                 }
             }
         }
-        .section__design {
+        .section__home__design {
             width: 689px;
             padding: 120px 0 120px 0;
         }
 
-        .section__icons {
+        .section__home__icons {
             width: 689px;
             padding: 0;
             article {
@@ -291,14 +290,14 @@ body {
     }
 
     @media (min-width: 1440px) {
-        .section__frame {
+        .section__home__frame {
             width: 1111px;
             display: flex;
             flex-direction: row;
             border-radius: 15px;
         }
 
-        .section__icons {
+        .section__home__icons {
             min-width: 1111px;
             display: flex;
             flex-direction: row;
