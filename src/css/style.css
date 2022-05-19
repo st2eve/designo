@@ -1574,6 +1574,23 @@ main {
 }
 main .section__app__header {
   width: 375px;
+  padding: 0;
+}
+main .section__app__header .container__img {
+  width: 100%;
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("/src/images/app-design/Group 6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .section__app__header .container__img .container__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1581,45 +1598,27 @@ main .section__app__header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-main .section__app__header .container__text {
-  padding-top: 105px;
-  position: absolute;
-  text-align: center;
-}
-main .section__app__header .container__text h1 {
+main .section__app__header .container__img .container__text h1 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 36px;
-  text-align: center;
   color: #FFFFFF;
   margin-bottom: 24px;
 }
-main .section__app__header .container__text p {
+main .section__app__header .container__img .container__text p {
   width: 327px;
   font-family: "Jost";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  text-align: center;
   color: #FFFFFF;
-}
-main .section__app__header .container__img {
-  width: 100%;
-  height: 320px;
-}
-main .section__app__header .container__img img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 main .section__app__frame {
   padding-top: 96px;
@@ -1681,7 +1680,7 @@ main .section__app__frame .container .container__text p {
   color: #333136;
 }
 main .section__app__design {
-  width: 90%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1695,20 +1694,22 @@ main .section__app__design {
   gap: 24px;
   padding: 96px 0 96px 0;
 }
-main .section__app__design .container {
-  position: relative;
-}
-main .section__app__design .container .container__img {
-  width: 100%;
+main .section__app__design .container--web {
+  width: 327px;
   height: 250px;
 }
-main .section__app__design .container .container__img img {
-  width: 100%;
+main .section__app__design .container--web .container__img {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  background-image: url("/src/images/index_design/Bitmap_7.png");
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-main .section__app__design .container .container__text {
+main .section__app__design .container--web .container__img .container__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1722,14 +1723,9 @@ main .section__app__design .container .container__text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-main .section__app__design .container .container__text--web {
-  position: absolute;
-  top: 100px;
-  right: 60px;
   text-align: center;
 }
-main .section__app__design .container .container__text--web h2 {
+main .section__app__design .container--web .container__img .container__text h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -1739,7 +1735,7 @@ main .section__app__design .container .container__text--web h2 {
   color: #FFFFFF;
   margin-bottom: 11.97px;
 }
-main .section__app__design .container .container__text--web h3 {
+main .section__app__design .container--web .container__img .container__text h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -1748,17 +1744,43 @@ main .section__app__design .container .container__text--web h3 {
   letter-spacing: 5px;
   color: #FFFFFF;
 }
-main .section__app__design .container .container__text--web h3 span {
+main .section__app__design .container--web .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
 }
-main .section__app__design .container .container__text--graphic {
-  position: absolute;
-  top: 100px;
-  right: 36.5px;
+main .section__app__design .container--graphic {
+  width: 327px;
+  height: 250px;
+}
+main .section__app__design .container--graphic .container__img {
+  height: 100%;
+  background-image: url("/src/images/index_design/Bitmap_9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .section__app__design .container--graphic .container__img .container__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
-main .section__app__design .container .container__text--graphic h2 {
+main .section__app__design .container--graphic .container__img .container__text h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -1768,7 +1790,7 @@ main .section__app__design .container .container__text--graphic h2 {
   color: #FFFFFF;
   margin-bottom: 11.97px;
 }
-main .section__app__design .container .container__text--graphic h3 {
+main .section__app__design .container--graphic .container__img .container__text h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -1777,7 +1799,7 @@ main .section__app__design .container .container__text--graphic h3 {
   letter-spacing: 5px;
   color: #FFFFFF;
 }
-main .section__app__design .container .container__text--graphic h3 span {
+main .section__app__design .container--graphic .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
 }
@@ -1785,29 +1807,26 @@ main .section__app__design .container .container__text--graphic h3 span {
 @media (min-width: 768px) {
   body .section__app__header {
     width: 689px;
-    height: 282px;
-    border-radius: 15px;
   }
-  body .section__app__header .container__text {
-    width: 573px;
-    padding-top: 75px;
+  body .section__app__header .container__img {
+    width: 100%;
+    height: 252px;
+    background-image: url("/src/images/app-design/Group 6.png");
+    background-repeat: no-repeat;
   }
-  body .section__app__header .container__text h1 {
+  body .section__app__header .container__img .container__text h1 {
     font-size: 48px;
     line-height: 48px;
     margin-bottom: 25px;
   }
-  body .section__app__header .container__text p {
-    width: 445px;
+  body .section__app__header .container__img .container__text p {
     text-align: center;
-    margin-right: 0;
     font-size: 16px;
     line-height: 26px;
-    margin: 0 auto;
   }
   body .section__app__frame {
     width: 689px;
-    padding: 120px 0 120px 0;
+    padding-top: 120px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1836,7 +1855,7 @@ main .section__app__design .container .container__text--graphic h3 span {
     height: 310px;
   }
   body .section__app__frame .container .container__img img {
-    border-radius: 0 0 15px;
+    border-radius: 15px 0 0 15px;
   }
   body .section__app__frame .container .container__text {
     display: -webkit-box;
@@ -1855,16 +1874,53 @@ main .section__app__design .container .container__text--graphic h3 span {
     width: 50%;
     height: 310px;
     padding: 0;
-    border-radius: 15px;
+    border-radius: 0 15px 15px 0;
   }
-  body .section__app__icons {
+  body .section__app__design {
     width: 689px;
-    padding: 0;
+    padding: 120px 0 120px 0;
   }
-  body .section__app__icons article {
-    height: 202px;
-    padding: 0;
-    margin-bottom: 32px;
+  body .section__app__design .container--web {
+    width: 689px;
+    height: 200px;
+  }
+  body .section__app__design .container--web .container__img {
+    background-image: url("/src/images/index_design/Bitmap_4.png");
+    background-repeat: no-repeat;
+  }
+  body .section__app__design .container--web .container__img .container__text h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+  }
+  body .section__app__design .container--graphic {
+    width: 689px;
+    height: 200px;
+  }
+  body .section__app__design .container--graphic .container__img {
+    background-image: url("/src/images/index_design/Bitmap_6.png");
+    background-repeat: no-repeat;
+  }
+  body .section__app__design .container--graphic .container__img .container__text h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  body .section__app__header {
+    width: 1111px;
+  }
+  body .section__app__header .container__img {
+    width: 100%;
+    height: 252px;
+    background-image: url("/src/images/app-design/header_background.png");
+    background-repeat: no-repeat;
+  }
+  body .section__app__frame {
+    padding-top: 160px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1872,13 +1928,12 @@ main .section__app__design .container .container__text--graphic h3 span {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 48px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+    width: 1111px;
   }
-  body .section__app__icons article .container__img {
-    margin: 0;
-    padding: 0;
-  }
-  body .section__app__icons article .container__text {
+  body .section__app__frame .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1886,46 +1941,338 @@ main .section__app__design .container .container__text--graphic h3 span {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 439px;
+    width: 350px;
+    height: 478px;
   }
-  body .section__app__icons article .container__text h3 {
-    margin-bottom: 16px;
-    text-align: left;
-  }
-  body .section__app__icons article .container__text p {
+  body .section__app__frame .container .container__img {
     width: 100%;
-    text-align: left;
+    height: 320px;
+  }
+  body .section__app__frame .container .container__img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  body .section__app__frame .container .container__text {
+    padding: 32px 0 32px 0;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    background: #FDF3F0;
+  }
+  body .section__app__frame .container .container__text p {
+    width: 286px;
+  }
+  body .section__app__design {
+    width: 1111px;
+    padding: 160px 0 160px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 30px;
+  }
+  body .section__app__design .container--web {
+    width: 541px;
+    height: 308px;
+  }
+  body .section__app__design .container--web .container__img {
+    background-image: url("/src/images/app-design/Bitmap_app.png");
+    background-repeat: no-repeat;
+  }
+  body .section__app__design .container--web .container__img .container__text h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+  }
+  body .section__app__design .container--graphic {
+    width: 541px;
+    height: 308px;
+  }
+  body .section__app__design .container--graphic .container__img {
+    background-image: url("/src/images/index_design/Bitmap_3.png");
+    background-repeat: no-repeat;
+  }
+  body .section__app__design .container--graphic .container__img .container__text h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
   }
 }
-@media (min-width: 1440px) {
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .section__app__header {
+  width: 375px;
+  padding: 0;
+}
+main .section__app__header .container__img {
+  width: 100%;
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("/src/images/app-design/Group 6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .section__app__header .container__img .container__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .section__app__header .container__img .container__text h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+main .section__app__header .container__img .container__text p {
+  width: 327px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+main .section__app__frame {
+  padding-top: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  width: 375px;
+}
+main .section__app__frame .container {
+  width: 327px;
+  margin: 0;
+  height: 478px;
+}
+main .section__app__frame .container .container__img {
+  width: 100%;
+  height: 320px;
+}
+main .section__app__frame .container .container__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+main .section__app__frame .container .container__text {
+  padding: 32px 0 32px 0;
+  border-radius: 0 0 15px 15px;
+  width: 327px;
+  background: #FDF3F0;
+}
+main .section__app__frame .container .container__text h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #E7816B;
+  margin-bottom: 16px;
+}
+main .section__app__frame .container .container__text p {
+  margin: 0 auto;
+  width: 267.21px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333136;
+}
+main .section__app__design {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+  padding: 96px 0 96px 0;
+}
+main .section__app__design .container--web {
+  width: 327px;
+  height: 250px;
+}
+main .section__app__design .container--web .container__img {
+  height: 100%;
+  background-image: url("/src/images/index_design/Bitmap_7.png");
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .section__app__design .container--web .container__img .container__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+main .section__app__design .container--web .container__img .container__text h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 1.4px;
+  color: #FFFFFF;
+  margin-bottom: 11.97px;
+}
+main .section__app__design .container--web .container__img .container__text h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+}
+main .section__app__design .container--web .container__img .container__text h3 span {
+  padding-left: 16px;
+  color: #E7816B;
+}
+main .section__app__design .container--graphic {
+  width: 327px;
+  height: 250px;
+}
+main .section__app__design .container--graphic .container__img {
+  height: 100%;
+  background-image: url("/src/images/index_design/Bitmap_9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .section__app__design .container--graphic .container__img .container__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+main .section__app__design .container--graphic .container__img .container__text h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 1.4px;
+  color: #FFFFFF;
+  margin-bottom: 11.97px;
+}
+main .section__app__design .container--graphic .container__img .container__text h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+}
+main .section__app__design .container--graphic .container__img .container__text h3 span {
+  padding-left: 16px;
+  color: #E7816B;
+}
+
+@media (min-width: 768px) {
+  body .section__app__header {
+    width: 689px;
+  }
+  body .section__app__header .container__img {
+    width: 100%;
+    height: 252px;
+    background-image: url("/src/images/app-design/Group 6.png");
+    background-repeat: no-repeat;
+  }
+  body .section__app__header .container__img .container__text h1 {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 25px;
+  }
+  body .section__app__header .container__img .container__text p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+  }
   body .section__app__frame {
-    width: 1111px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    border-radius: 15px;
-  }
-  body .section__app__icons {
-    min-width: 1111px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  body .section__app__icons article {
+    width: 689px;
+    padding-top: 120px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1936,10 +2283,171 @@ main .section__app__design .container .container__text--graphic h3 span {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 500px;
+    gap: 32px;
   }
-  body .section__app__icons article .container__text p {
+  body .section__app__frame .container {
+    width: 689px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 310px;
+  }
+  body .section__app__frame .container .container__img {
+    width: 50%;
+    height: 310px;
+  }
+  body .section__app__frame .container .container__img img {
+    border-radius: 15px 0 0 15px;
+  }
+  body .section__app__frame .container .container__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    height: 310px;
+    padding: 0;
+    border-radius: 0 15px 15px 0;
+  }
+  body .section__app__design {
+    width: 689px;
+    padding: 120px 0 120px 0;
+  }
+  body .section__app__design .container--web {
+    width: 689px;
+    height: 200px;
+  }
+  body .section__app__design .container--web .container__img {
+    background-image: url("/src/images/index_design/Bitmap_4.png");
+    background-repeat: no-repeat;
+  }
+  body .section__app__design .container--web .container__img .container__text h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+  }
+  body .section__app__design .container--graphic {
+    width: 689px;
+    height: 200px;
+  }
+  body .section__app__design .container--graphic .container__img {
+    background-image: url("/src/images/index_design/Bitmap_6.png");
+    background-repeat: no-repeat;
+  }
+  body .section__app__design .container--graphic .container__img .container__text h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  body .section__app__header {
+    width: 1111px;
+  }
+  body .section__app__header .container__img {
+    width: 100%;
+    height: 252px;
+    background-image: url("/src/images/app-design/header_background.png");
+    background-repeat: no-repeat;
+  }
+  body .section__app__frame {
+    padding-top: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+    width: 1111px;
+  }
+  body .section__app__frame .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 350px;
-    text-align: center;
+    height: 478px;
+  }
+  body .section__app__frame .container .container__img {
+    width: 100%;
+    height: 320px;
+  }
+  body .section__app__frame .container .container__img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  body .section__app__frame .container .container__text {
+    padding: 32px 0 32px 0;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    background: #FDF3F0;
+  }
+  body .section__app__frame .container .container__text p {
+    width: 286px;
+  }
+  body .section__app__design {
+    width: 1111px;
+    padding: 160px 0 160px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 30px;
+  }
+  body .section__app__design .container--web {
+    width: 541px;
+    height: 308px;
+  }
+  body .section__app__design .container--web .container__img {
+    background-image: url("/src/images/app-design/Bitmap_app.png");
+    background-repeat: no-repeat;
+  }
+  body .section__app__design .container--web .container__img .container__text h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+  }
+  body .section__app__design .container--graphic {
+    width: 541px;
+    height: 308px;
+  }
+  body .section__app__design .container--graphic .container__img {
+    background-image: url("/src/images/index_design/Bitmap_3.png");
+    background-repeat: no-repeat;
+  }
+  body .section__app__design .container--graphic .container__img .container__text h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
