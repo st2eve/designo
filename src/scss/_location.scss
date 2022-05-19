@@ -2,8 +2,7 @@
 
 body {
 
-    .main {
-        width: $WidthMob;
+    .main-locations {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -26,13 +25,13 @@ body {
 
             .main__adress{
                 width: $WidthMob;
+                height: 394px;
                 display: flex;
                 justify-content: center;
                 position: relative;
 
                 .main__adress-bg{
                     width: $WidthContainer;
-                    height: 394px;
                     position: initial;
                     z-index: 5;
                     display: flex;
@@ -72,10 +71,13 @@ body {
                 }
             }
         }
+        .last-location{
+            margin-bottom: 120px;
+        }
     }
 
+
     .foot{
-        width: $WidthMob;
         height: 1005px;
         background-color: #1D1C1E;
         .foot__container{
@@ -100,7 +102,6 @@ body {
                     justify-content: center;
         
                     .foot__contact-project-img{
-                        width: $WidthContainer;
                         background-color: #1D1C1E;
                         border-radius: 15px;
                     }

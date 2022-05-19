@@ -3,7 +3,6 @@
 body{
 
     .foot{
-        width: $WidthMob;
         height: 1005px;
         background-color: #1D1C1E;
 
@@ -24,6 +23,7 @@ body{
                 }
                 .foot__contact-project{
                     width: $WidthContainer;
+                    height: 379px;
                     position: relative;
                     left: 24px;
                     top: -100%;
@@ -31,33 +31,36 @@ body{
                     border-radius: 15px;
                     display: flex;
                     justify-content: center;
+                    overflow: hidden;
 
                     .foot__contact-project-img{
-                        width: $WidthContainer;
                         background-color: #1D1C1E;
                         border-radius: 15px;
                     }
                     .foot__project{
                         width: 279px;
                         height: 100%;
-                        position: absolute;
-                        top: 0;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        gap: 32px;
+                        
 
-                        .foot__title{
+                        .foot__project-text{
                             background-color: transparent;
-                            font-size: 32px;
-                            font-weight: 500;
-                            line-height: 36px;
-                        }
-                        .foot__text{
-                            font-size: 15px;
-                            font-weight: 400;
-                            line-height: 25px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 32px;
+                            
+                            .foot__title{
+                                background-color: transparent;
+                                font-size: 32px;
+                                font-weight: 500;
+                                line-height: 36px;
+                            }
+                            .foot__text{
+                                font-size: 15px;
+                                font-weight: 400;
+                                line-height: 25px;
+                            }
                         }
                         .foot__button{
                             background-color: #fff;
@@ -79,7 +82,8 @@ body{
             }
 
             .foot__logo{
-                width: $WidthMob;
+                width: 197px;
+                height: 27px;
                 display: flex;
                 justify-content: center;
                 gap: 16px;
@@ -146,12 +150,8 @@ body{
         }
     }
 
-    @media (min-width: 768px) {
-          
-    }
+    @import '_footer-tab.scss';
 
-    @media (min-width: 1440px) {
-        
-    }
+    @import '_footer-desk.scss';
 }
 

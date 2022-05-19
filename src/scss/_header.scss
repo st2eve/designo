@@ -89,12 +89,12 @@ body{
         
     }
 
-    @media (min-width: 768px) {
-        
-    }
-
-    @media (min-width: 1440px) {
-        
-    }
+    
 }
+
+@import '_header-tab.scss';
+@import '_header-desk.scss';
+
+    
+
 }

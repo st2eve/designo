@@ -1,0 +1,104 @@
+@media (min-width: 1440px) {
+    .foot{
+        height: 613px;
+        background-color: #1D1C1E;
+        position: relative;
+
+        .foot__container{
+            width: $WidthDesk;
+            height: 687px;
+            background-color: #1D1C1E;
+            flex-direction: initial;
+            align-items: initial;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            .foot__contact{
+                width: $WidthDesk;
+                height: 350px;
+                background-color: #1D1C1E;
+
+                .foot__contact-bg{
+                    height: 25%;
+                }
+                .foot__contact-project{
+                    width: 1111px;
+                    height: 350px;
+                    left: 165px;
+
+                    .foot__contact-project-img{
+                        width: 1111px;
+                        height: 350px;
+                        left: 0;
+                    }
+                    .foot__project{
+                        width: 1111px;
+                        gap: 20px;
+                        flex-direction: initial;
+                        justify-content: space-around;
+
+                        .foot__project-text{
+                            width: 459px;
+                            align-items: flex-start;
+                        
+                            .foot__title{
+                                height: 90px;
+                                width: 268px;
+                                text-align: start;
+                            }
+                            .foot__text{
+                                text-align: start;
+                            }
+                        }
+                    
+                    }
+                }
+            }
+            .foot__contact :first-child{
+                height: 75%;
+            }
+
+            .foot__logo{
+                width: 1111px;
+            }
+
+            .foot__bar{
+                width: 1111px;
+            }
+
+            .foot__nav{
+                right: 125px;
+                .foot__list{
+                    
+                    .foot__sublist{
+                        
+                        a{
+                            
+                        }
+                    }
+                }
+            }
+            .foot__adress{
+                width: 350px;
+                .foot__text{
+                }
+            }
+            .foot__contact_us{
+                width: 350px;
+                .foot__text{
+                }
+            }
+            .foot__list-social{
+
+                .foot__sublist-social{
+                    
+                    
+                    .fa-brands{
+                    }
+                }
+
+                
+            }
+        }
+    }
+}
