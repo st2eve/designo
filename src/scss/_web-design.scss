@@ -2,7 +2,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    .section__app__header {
+    .section__web__header {
         width: 375px;
         padding: 0;
         .container__img {
@@ -40,7 +40,7 @@ main{
         } 
     }
 
-    .section__app__frame {
+    .section__web__frame {
         padding-top: 96px;
         display: flex;
         flex-direction: column;
@@ -92,19 +92,19 @@ main{
         }
     }
 
-    .section__app__design {
+    .section__graphic__design {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 24px;
         padding: 96px 0 96px 0;
-        .container--web {
+        .container--app {
             width: 327px;
             height: 250px;
             .container__img {  
                 height: 100%;
-                background-image: url("/src/images/index_design/Bitmap_7.png");
+                background-image: url("/src/images/index_design/Bitmap_8.png");
                 background-repeat: no-repeat;
                 display: flex;
                 justify-content: center;
@@ -191,7 +191,7 @@ main{
 
 body {
     @media (min-width: 768px) {
-        .section__app__header {
+        .section__web__header {
             width: 689px; 
             .container__img {
                 width: 100%;
@@ -213,7 +213,7 @@ body {
             }   
         }
 
-        .section__app__frame {
+        .section__web__frame {
             width: 689px;
             padding-top: 120px;
             display: flex;
@@ -244,14 +244,14 @@ body {
                 }
             }
         }
-        .section__app__design {
+        .section__graphic__design {
             width: 689px;
             padding: 120px 0 120px 0;
-            .container--web {
+            .container--app {
                 width: 689px;
                 height: 200px;
                 .container__img {
-                    background-image: url("/src/images/index_design/Bitmap_4.png");
+                    background-image: url("/src/images/index_design/Bitmap_5.png");
                     background-repeat: no-repeat;
                     .container__text {
                         h2 {
@@ -284,7 +284,7 @@ body {
     }
 
     @media (min-width: 1440px) {
-        .section__app__header {
+        .section__web__header {
             width: 1111px; 
             .container__img {
                 width: 100%;
@@ -295,7 +295,7 @@ body {
         }
         
 
-        .section__app__frame {
+        .section__web__frame {
             padding-top: 160px;
             display: flex;
             flex-direction: row;
@@ -331,17 +331,17 @@ body {
         }
     
 
-        .section__app__design {
+        .section__graphic__design {
             width: 1111px;
             padding: 160px 0 160px 0;
             display: flex;
             flex-direction: row;
             gap: 30px;
-            .container--web {
+            .container--app {
                 width: 541px;
                 height: 308px;
                 .container__img {
-                    background-image: url("/src/images/app-design/Bitmap_app.png");
+                    background-image: url("/src/images/index_design/Bitmap_2.png");
                     background-repeat: no-repeat;
                     .container__text {
                         h2 {
