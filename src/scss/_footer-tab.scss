@@ -1,0 +1,114 @@
+@media (min-width: 768px) {
+        
+    .foot{
+        height: 687px;
+        background-color: #1D1C1E;
+        position: relative;
+
+        .foot__container{
+            width: $WidthTab;
+            height: 687px;
+            background-color: #1D1C1E;
+            flex-direction: initial;
+            align-items: initial;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            .foot__contact{
+                width: $WidthTab;
+                height: 350px;
+                background-color: #1D1C1E;
+
+                .foot__contact-bg{
+                    height: 25%;
+                }
+                .foot__contact-project{
+                    width: 690px;
+                    height: 350px;
+                    left: 39px;
+
+                    .foot__contact-project-img{
+                        width: 690px;
+                        height: 350px;
+                        left: 0;
+                    }
+                    .foot__project{
+                        width: 410px;
+                        gap: 20px;
+
+                        .foot__title{
+                            height: 90px;
+                            width: 335px;
+                        }
+                        .foot__text{
+                            
+                        }
+                    }
+                }
+            }
+            .foot__contact :first-child{
+                height: 75%;
+            }
+
+            .foot__logo{
+                width: 687px;
+                height: 27px;
+                justify-content: initial;
+            }
+
+            .foot__bar{
+                width: 690px;
+                height: 0;
+            }
+
+            .foot__nav{
+                height: 27px;
+                position: absolute;
+                right: 0;
+                top: 410px;
+
+                .foot__list{
+                    flex-direction: initial;
+                    justify-content: space-evenly;
+                    
+                    .foot__sublist{
+                        
+                        a{
+                            
+                        }
+                    }
+                }
+            }
+            .foot__adress{
+                width: 223px;
+                text-align: start;
+
+                .foot__text{
+                    text-align: start;
+                }
+            }
+            .foot__contact_us{
+                width: 223px;
+                text-align: start;
+
+                .foot__text{
+                    text-align: start;
+                }
+            }
+            .foot__list-social{
+                height: 78px;
+                align-items: flex-end;
+
+                .foot__sublist-social{
+                    
+                    
+                    .fa-brands{
+                        font-size: 24px;
+                    }
+                }
+
+                
+            }
+        }
+    }
+}

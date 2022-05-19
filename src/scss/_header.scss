@@ -89,12 +89,13 @@ body{
         
     }
 
-    @media (min-width: 768px) {
-        
-    }
+    
+}
+
+@import '_header-tab.scss';
 
     @media (min-width: 1440px) {
         
     }
-}
+
 }
