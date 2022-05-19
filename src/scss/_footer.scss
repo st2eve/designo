@@ -40,22 +40,27 @@ body{
                     .foot__project{
                         width: 279px;
                         height: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        gap: 32px;
+                        
 
-                        .foot__title{
+                        .foot__project-text{
                             background-color: transparent;
-                            font-size: 32px;
-                            font-weight: 500;
-                            line-height: 36px;
-                        }
-                        .foot__text{
-                            font-size: 15px;
-                            font-weight: 400;
-                            line-height: 25px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 32px;
+                            
+                            .foot__title{
+                                background-color: transparent;
+                                font-size: 32px;
+                                font-weight: 500;
+                                line-height: 36px;
+                            }
+                            .foot__text{
+                                font-size: 15px;
+                                font-weight: 400;
+                                line-height: 25px;
+                            }
                         }
                         .foot__button{
                             background-color: #fff;

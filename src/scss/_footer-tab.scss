@@ -36,12 +36,13 @@
                         width: 410px;
                         gap: 20px;
 
-                        .foot__title{
-                            height: 90px;
-                            width: 335px;
-                        }
-                        .foot__text{
-                            
+                        .foot__project-text{
+                            gap: 0;
+                            height: 150px;
+                            .foot__title{
+                                height: 90px;
+                                width: 275px;
+                            }
                         }
                     }
                 }

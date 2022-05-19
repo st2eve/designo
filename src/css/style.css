@@ -252,6 +252,12 @@ body .head .head__burger:checked {
     display: none;
   }
 }
+@media (min-width: 1440px) {
+  body .head {
+    width: 1440px;
+  }
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1331,6 +1337,9 @@ body .foot .foot__container .foot__contact .foot__contact-project .foot__contact
 body .foot .foot__container .foot__contact .foot__contact-project .foot__project {
   width: 279px;
   height: 100%;
+}
+body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__project-text {
+  background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1346,13 +1355,13 @@ body .foot .foot__container .foot__contact .foot__contact-project .foot__project
           justify-content: center;
   gap: 32px;
 }
-body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__title {
+body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__project-text .foot__title {
   background-color: transparent;
   font-size: 32px;
   font-weight: 500;
   line-height: 36px;
 }
-body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__text {
+body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__project-text .foot__text {
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
@@ -1488,9 +1497,13 @@ body .foot .foot__container .foot__list-social .foot__sublist-social .fa-brands 
     width: 410px;
     gap: 20px;
   }
-  body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__title {
+  body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__project-text {
+    gap: 0;
+    height: 150px;
+  }
+  body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__project-text .foot__title {
     height: 90px;
-    width: 335px;
+    width: 275px;
   }
   body .foot .foot__container .foot__contact :first-child {
     height: 75%;
@@ -1543,5 +1556,89 @@ body .foot .foot__container .foot__list-social .foot__sublist-social .fa-brands 
   }
   body .foot .foot__container .foot__list-social .foot__sublist-social .fa-brands {
     font-size: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  body .foot, body .foot .foot__container {
+    height: 613px;
+    background-color: #1D1C1E;
+    position: relative;
+  }
+  body .foot .foot__container {
+    width: 1440px;
+    height: 687px;
+    background-color: #1D1C1E;
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+    -webkit-box-align: initial;
+        -ms-flex-align: initial;
+            align-items: initial;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .foot .foot__container .foot__contact {
+    width: 1440px;
+    height: 350px;
+    background-color: #1D1C1E;
+  }
+  body .foot .foot__container .foot__contact .foot__contact-bg {
+    height: 25%;
+  }
+  body .foot .foot__container .foot__contact .foot__contact-project {
+    width: 1111px;
+    height: 350px;
+    left: 165px;
+  }
+  body .foot .foot__container .foot__contact .foot__contact-project .foot__contact-project-img {
+    width: 1111px;
+    height: 350px;
+    left: 0;
+  }
+  body .foot .foot__container .foot__contact .foot__contact-project .foot__project {
+    width: 1111px;
+    gap: 20px;
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__project-text {
+    width: 459px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__project-text .foot__title {
+    height: 90px;
+    width: 268px;
+    text-align: start;
+  }
+  body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__project-text .foot__text {
+    text-align: start;
+  }
+  body .foot .foot__container .foot__contact :first-child {
+    height: 75%;
+  }
+  body .foot .foot__container .foot__logo {
+    width: 1111px;
+  }
+  body .foot .foot__container .foot__bar {
+    width: 1111px;
+  }
+  body .foot .foot__container .foot__nav {
+    right: 125px;
+  }
+  body .foot .foot__container .foot__adress {
+    width: 350px;
+  }
+  body .foot .foot__container .foot__contact_us {
+    width: 350px;
   }
 }/*# sourceMappingURL=style.css.map */
