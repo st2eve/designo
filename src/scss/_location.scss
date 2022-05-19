@@ -4,12 +4,10 @@ body {
 
     .main {
         width: $WidthMob;
-        height: 2342px;
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
-        gap: 50px;
 
         .main__location{
             width: $WidthMob;

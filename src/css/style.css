@@ -565,17 +565,16 @@ main .section__home__icons article .container__text p {
 }
 
 body h1 {
+  font-family: "Jost";
   color: white;
   text-align: center;
 }
 body p {
+  font-family: "Jost";
   color: white;
   text-align: center;
 }
 
-main {
-  width: 375px;
-}
 main .block {
   width: 375px;
 }
@@ -592,10 +591,17 @@ main .block .red {
   top: 96px;
 }
 main .block .red h1 {
+  font-family: "Jost";
+  margin-top: 80px;
+  font-weight: 500;
+  line-height: 36px;
+  font-size: 32px;
   text-align: center;
   color: white;
 }
 main .block .red p {
+  font-family: "Jost";
+  margin-top: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -627,6 +633,8 @@ main .world .test {
   display: flex;
 }
 main .world .test h2 {
+  font-family: "Jost";
+  margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -635,7 +643,8 @@ main .world .test h2 {
   color: #e7816b;
 }
 main .world .test p {
-  margin-top: 50px;
+  font-family: "Jost";
+  margin-top: 140px;
   width: 375px;
   text-align: center;
   position: absolute;
@@ -671,6 +680,7 @@ main .ville .belgium {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 120px;
 }
 main .ville .australia {
   display: -webkit-box;
@@ -696,6 +706,11 @@ main .ville .kingdom {
       -ms-flex-align: center;
           align-items: center;
 }
+main .ville .txt {
+  color: red;
+  margin-top: 48px;
+  font-size: 20px;
+}
 main .ville .see {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -710,11 +725,13 @@ main .ville .see {
   width: 152px;
   background-color: #E7816B;
   color: #FFFFFF;
-}
-main .ville .txt {
-  color: red;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  border-radius: 8px;
+  font-size: 15px;
 }
 main .trois {
+  margin-bottom: 120px;
   width: 375px;
 }
 main .trois .photo {
@@ -722,7 +739,13 @@ main .trois .photo {
   display: -ms-flexbox;
   display: flex;
 }
+main .trois .photo img {
+  padding-top: 170px;
+}
 main .trois .real {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 545px;
   position: relative;
 }
@@ -735,10 +758,18 @@ main .trois .real .test {
   z-index: 6;
 }
 main .trois .real .test h3 {
+  font-family: "Jost";
+  font-size: 32px;
+  margin-top: 80px;
   color: #e7816b;
   text-align: center;
 }
 main .trois .real .test p {
+  font-family: "Jost";
+  text-align: center;
+  width: 300px;
+  font-size: 15px;
+  margin-top: 24px;
   color: #333136;
 }
 
@@ -1201,7 +1232,6 @@ body .foot-contact .foot__container-contact .foot__list-social-contact .foot__su
 
 body .main {
   width: 375px;
-  height: 2342px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1215,7 +1245,6 @@ body .main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 50px;
 }
 body .main .main__location {
   width: 375px;
