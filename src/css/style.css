@@ -2018,11 +2018,11 @@ main {
       -ms-flex-align: center;
           align-items: center;
 }
-main .section__app__header {
+main .section__web__header {
   width: 375px;
   padding: 0;
 }
-main .section__app__header .container__img {
+main .section__web__header .container__img {
   width: 100%;
   height: 320px;
   display: -webkit-box;
@@ -2036,7 +2036,7 @@ main .section__app__header .container__img {
   background-position: center;
   background-size: cover;
 }
-main .section__app__header .container__img .container__text {
+main .section__web__header .container__img .container__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2048,7 +2048,7 @@ main .section__app__header .container__img .container__text {
       -ms-flex-pack: center;
           justify-content: center;
 }
-main .section__app__header .container__img .container__text h1 {
+main .section__web__header .container__img .container__text h1 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -2057,7 +2057,7 @@ main .section__app__header .container__img .container__text h1 {
   color: #FFFFFF;
   margin-bottom: 24px;
 }
-main .section__app__header .container__img .container__text p {
+main .section__web__header .container__img .container__text p {
   width: 327px;
   font-family: "Jost";
   font-style: normal;
@@ -2066,7 +2066,7 @@ main .section__app__header .container__img .container__text p {
   line-height: 25px;
   color: #FFFFFF;
 }
-main .section__app__frame {
+main .section__web__frame {
   padding-top: 96px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2081,29 +2081,29 @@ main .section__app__frame {
   gap: 40px;
   width: 375px;
 }
-main .section__app__frame .container {
+main .section__web__frame .container {
   width: 327px;
   margin: 0;
   height: 478px;
 }
-main .section__app__frame .container .container__img {
+main .section__web__frame .container .container__img {
   width: 100%;
   height: 320px;
 }
-main .section__app__frame .container .container__img img {
+main .section__web__frame .container .container__img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
-main .section__app__frame .container .container__text {
+main .section__web__frame .container .container__text {
   padding: 32px 0 32px 0;
   border-radius: 0 0 15px 15px;
   width: 327px;
   background: #FDF3F0;
 }
-main .section__app__frame .container .container__text h2 {
+main .section__web__frame .container .container__text h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -2114,7 +2114,7 @@ main .section__app__frame .container .container__text h2 {
   color: #E7816B;
   margin-bottom: 16px;
 }
-main .section__app__frame .container .container__text p {
+main .section__web__frame .container .container__text p {
   margin: 0 auto;
   width: 267.21px;
   font-family: "Jost";
@@ -2125,7 +2125,7 @@ main .section__app__frame .container .container__text p {
   text-align: center;
   color: #333136;
 }
-main .section__app__design {
+main .section__graphic__design {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2140,13 +2140,13 @@ main .section__app__design {
   gap: 24px;
   padding: 96px 0 96px 0;
 }
-main .section__app__design .container--web {
+main .section__graphic__design .container--app {
   width: 327px;
   height: 250px;
 }
-main .section__app__design .container--web .container__img {
+main .section__graphic__design .container--app .container__img {
   height: 100%;
-  background-image: url("/src/images/index_design/Bitmap_7.png");
+  background-image: url("/src/images/index_design/Bitmap_8.png");
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2155,7 +2155,7 @@ main .section__app__design .container--web .container__img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-main .section__app__design .container--web .container__img .container__text {
+main .section__graphic__design .container--app .container__img .container__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2171,7 +2171,7 @@ main .section__app__design .container--web .container__img .container__text {
           justify-content: center;
   text-align: center;
 }
-main .section__app__design .container--web .container__img .container__text h2 {
+main .section__graphic__design .container--app .container__img .container__text h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -2181,7 +2181,7 @@ main .section__app__design .container--web .container__img .container__text h2 {
   color: #FFFFFF;
   margin-bottom: 11.97px;
 }
-main .section__app__design .container--web .container__img .container__text h3 {
+main .section__graphic__design .container--app .container__img .container__text h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -2190,15 +2190,15 @@ main .section__app__design .container--web .container__img .container__text h3 {
   letter-spacing: 5px;
   color: #FFFFFF;
 }
-main .section__app__design .container--web .container__img .container__text h3 span {
+main .section__graphic__design .container--app .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
 }
-main .section__app__design .container--graphic {
+main .section__graphic__design .container--graphic {
   width: 327px;
   height: 250px;
 }
-main .section__app__design .container--graphic .container__img {
+main .section__graphic__design .container--graphic .container__img {
   height: 100%;
   background-image: url("/src/images/index_design/Bitmap_9.jpg");
   background-repeat: no-repeat;
@@ -2210,7 +2210,7 @@ main .section__app__design .container--graphic .container__img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-main .section__app__design .container--graphic .container__img .container__text {
+main .section__graphic__design .container--graphic .container__img .container__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2226,7 +2226,7 @@ main .section__app__design .container--graphic .container__img .container__text 
           justify-content: center;
   text-align: center;
 }
-main .section__app__design .container--graphic .container__img .container__text h2 {
+main .section__graphic__design .container--graphic .container__img .container__text h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -2236,7 +2236,7 @@ main .section__app__design .container--graphic .container__img .container__text 
   color: #FFFFFF;
   margin-bottom: 11.97px;
 }
-main .section__app__design .container--graphic .container__img .container__text h3 {
+main .section__graphic__design .container--graphic .container__img .container__text h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -2245,32 +2245,32 @@ main .section__app__design .container--graphic .container__img .container__text 
   letter-spacing: 5px;
   color: #FFFFFF;
 }
-main .section__app__design .container--graphic .container__img .container__text h3 span {
+main .section__graphic__design .container--graphic .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
 }
 
 @media (min-width: 768px) {
-  body .section__app__header {
+  body .section__web__header {
     width: 689px;
   }
-  body .section__app__header .container__img {
+  body .section__web__header .container__img {
     width: 100%;
     height: 252px;
     background-image: url("/src/images/app-design/Group 6.png");
     background-repeat: no-repeat;
   }
-  body .section__app__header .container__img .container__text h1 {
+  body .section__web__header .container__img .container__text h1 {
     font-size: 48px;
     line-height: 48px;
     margin-bottom: 25px;
   }
-  body .section__app__header .container__img .container__text p {
+  body .section__web__header .container__img .container__text p {
     text-align: center;
     font-size: 16px;
     line-height: 26px;
   }
-  body .section__app__frame {
+  body .section__web__frame {
     width: 689px;
     padding-top: 120px;
     display: -webkit-box;
@@ -2285,7 +2285,7 @@ main .section__app__design .container--graphic .container__img .container__text 
             align-items: center;
     gap: 32px;
   }
-  body .section__app__frame .container {
+  body .section__web__frame .container {
     width: 689px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2296,14 +2296,14 @@ main .section__app__design .container--graphic .container__img .container__text 
             flex-direction: row;
     height: 310px;
   }
-  body .section__app__frame .container .container__img {
+  body .section__web__frame .container .container__img {
     width: 50%;
     height: 310px;
   }
-  body .section__app__frame .container .container__img img {
+  body .section__web__frame .container .container__img img {
     border-radius: 15px 0 0 15px;
   }
-  body .section__app__frame .container .container__text {
+  body .section__web__frame .container .container__text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2322,33 +2322,33 @@ main .section__app__design .container--graphic .container__img .container__text 
     padding: 0;
     border-radius: 0 15px 15px 0;
   }
-  body .section__app__design {
+  body .section__graphic__design {
     width: 689px;
     padding: 120px 0 120px 0;
   }
-  body .section__app__design .container--web {
+  body .section__graphic__design .container--app {
     width: 689px;
     height: 200px;
   }
-  body .section__app__design .container--web .container__img {
-    background-image: url("/src/images/index_design/Bitmap_4.png");
+  body .section__graphic__design .container--app .container__img {
+    background-image: url("/src/images/index_design/Bitmap_5.png");
     background-repeat: no-repeat;
   }
-  body .section__app__design .container--web .container__img .container__text h2 {
+  body .section__graphic__design .container--app .container__img .container__text h2 {
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 2px;
     margin-bottom: 24px;
   }
-  body .section__app__design .container--graphic {
+  body .section__graphic__design .container--graphic {
     width: 689px;
     height: 200px;
   }
-  body .section__app__design .container--graphic .container__img {
+  body .section__graphic__design .container--graphic .container__img {
     background-image: url("/src/images/index_design/Bitmap_6.png");
     background-repeat: no-repeat;
   }
-  body .section__app__design .container--graphic .container__img .container__text h2 {
+  body .section__graphic__design .container--graphic .container__img .container__text h2 {
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 2px;
@@ -2356,16 +2356,16 @@ main .section__app__design .container--graphic .container__img .container__text 
   }
 }
 @media (min-width: 1440px) {
-  body .section__app__header {
+  body .section__web__header {
     width: 1111px;
   }
-  body .section__app__header .container__img {
+  body .section__web__header .container__img {
     width: 100%;
     height: 252px;
     background-image: url("/src/images/app-design/header_background.png");
     background-repeat: no-repeat;
   }
-  body .section__app__frame {
+  body .section__web__frame {
     padding-top: 160px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2379,7 +2379,7 @@ main .section__app__design .container--graphic .container__img .container__text 
     gap: 30px;
     width: 1111px;
   }
-  body .section__app__frame .container {
+  body .section__web__frame .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2390,27 +2390,27 @@ main .section__app__design .container--graphic .container__img .container__text 
     width: 350px;
     height: 478px;
   }
-  body .section__app__frame .container .container__img {
+  body .section__web__frame .container .container__img {
     width: 100%;
     height: 320px;
   }
-  body .section__app__frame .container .container__img img {
+  body .section__web__frame .container .container__img img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 15px 15px 0px 0px;
   }
-  body .section__app__frame .container .container__text {
+  body .section__web__frame .container .container__text {
     padding: 32px 0 32px 0;
     border-radius: 0 0 15px 15px;
     width: 100%;
     background: #FDF3F0;
   }
-  body .section__app__frame .container .container__text p {
+  body .section__web__frame .container .container__text p {
     width: 286px;
   }
-  body .section__app__design {
+  body .section__graphic__design {
     width: 1111px;
     padding: 160px 0 160px 0;
     display: -webkit-box;
@@ -2422,29 +2422,29 @@ main .section__app__design .container--graphic .container__img .container__text 
             flex-direction: row;
     gap: 30px;
   }
-  body .section__app__design .container--web {
+  body .section__graphic__design .container--app {
     width: 541px;
     height: 308px;
   }
-  body .section__app__design .container--web .container__img {
-    background-image: url("/src/images/app-design/Bitmap_app.png");
+  body .section__graphic__design .container--app .container__img {
+    background-image: url("/src/images/index_design/Bitmap_2.png");
     background-repeat: no-repeat;
   }
-  body .section__app__design .container--web .container__img .container__text h2 {
+  body .section__graphic__design .container--app .container__img .container__text h2 {
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 2px;
     margin-bottom: 24px;
   }
-  body .section__app__design .container--graphic {
+  body .section__graphic__design .container--graphic {
     width: 541px;
     height: 308px;
   }
-  body .section__app__design .container--graphic .container__img {
+  body .section__graphic__design .container--graphic .container__img {
     background-image: url("/src/images/index_design/Bitmap_3.png");
     background-repeat: no-repeat;
   }
-  body .section__app__design .container--graphic .container__img .container__text h2 {
+  body .section__graphic__design .container--graphic .container__img .container__text h2 {
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 2px;
