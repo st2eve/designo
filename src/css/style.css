@@ -1133,6 +1133,12 @@ body .main .main__container .main__form .main__form-container .main__form-button
   border: none;
   border-bottom: 1px solid white;
 }
+body .main .main__container .main__form .main__form-container .main__form-button:hover {
+  background-color: #FFAD9B;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
 body .main .main__container .main__form .main__form-container :last-child {
   background-color: white;
   width: 152px;
@@ -1202,6 +1208,10 @@ body .main .main__container .main__link .main__link-button .main__link-button_bu
   text-transform: uppercase;
   text-align: center;
   border: none;
+}
+body .main .main__container .main__link .main__link-button .main__link-button_button:hover {
+  background-color: #FFAD9B;
+  cursor: pointer;
 }
 body .foot-contact, body .foot-contact .foot__container-contact {
   width: 375px;
