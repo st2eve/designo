@@ -1,0 +1,62 @@
+@media (min-width: 768px) {
+
+        .main-locations{    
+                gap: 120px;
+            .main__location{
+                width: 689px;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+
+                .main__map{
+                    width: 689px;
+                    border-radius: 15px;
+
+                    .main__map-img{
+                        width: 689px;
+                        position: initial;
+                    }
+                }
+                .main__adress{
+                    width: 689px;
+                    height: 326px;
+                    border-radius: 15px;
+
+                    .main__adress-bg{
+                        width: 689px;
+                        display: grid;
+                        gap: 0;
+                        grid-template-columns: 75px 270px 270px 74px;
+                        grid-template-rows: 0.5fr 0.5fr 1fr;
+                        align-items: center;
+                            
+
+                        .main__country{
+                            width: 500px;
+                            grid-area: 2/2;
+                        }
+                        .main__adress-block{
+                            grid-area: 3/2;
+                            align-self: start;
+
+                            .main__adress-country{
+                                text-align: start;
+                            }
+                            .main__adress-text{
+                                text-align: start;
+                            }
+                        }
+
+                        .main__block-last{
+                            grid-area: 3/3;
+                            justify-self: center;
+                        }
+                    }
+
+                    .main__bg{
+                        width: 689px;
+                    }
+                }
+            }
+        }
+}

@@ -1,0 +1,44 @@
+@media (min-width: 1440px) {
+
+    .main-locations{
+        gap: 32px;
+        .main__location{
+            width: 1080px;
+            flex-direction: row-reverse;
+            gap: 32px;
+
+            .main__map{
+                width: 350px;
+
+                .main__map-img{
+                    position: relative;
+                    left: -100%;
+                }
+
+                .aus-map{
+                    left: -70%;
+                }
+
+                .uk-map{
+                    left: -70%;
+                }
+            }
+
+            .main__adress{
+                width: 730px;
+                
+                    .main__adress-bg{
+                        width: 730px;
+                    }
+                    .main__bg{
+                        width: 730px;
+                    }
+                }        
+        }
+
+        .aus-location{
+            flex-direction: row;
+        }
+    }
+
+}

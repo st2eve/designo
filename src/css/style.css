@@ -1340,18 +1340,25 @@ body .main-locations {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 50px;
 }
 body .main-locations .main__location {
   width: 375px;
-  height: 714px;
 }
 body .main-locations .main__location .main__map {
   width: 375px;
   height: 320px;
+  overflow: hidden;
 }
-body .main-locations .main__location .main__map .main_map-img {
-  width: 375px;
-  height: 320px;
+body .main-locations .main__location .main__map .main__map-img {
+  position: relative;
+  left: -80%;
+}
+body .main-locations .main__location .main__map .aus-map {
+  left: -50%;
+}
+body .main-locations .main__location .main__map .uk-map {
+  left: -60%;
 }
 body .main-locations .main__location .main__adress {
   width: 375px;
@@ -1363,6 +1370,7 @@ body .main-locations .main__location .main__adress {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 body .main-locations .main__location .main__adress .main__adress-bg {
   width: 327px;
@@ -1402,13 +1410,113 @@ body .main-locations .main__location .main__adress .main__adress-bg .main__adres
   font-weight: 400;
 }
 body .main-locations .main__location .main__adress .main__bg {
-  width: 375px;
   height: 394px;
   position: absolute;
   z-index: 4;
 }
 body .main-locations .last-location {
   margin-bottom: 120px;
+}
+@media (min-width: 768px) {
+  body .main-locations {
+    gap: 120px;
+  }
+  body .main-locations .main__location {
+    width: 689px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+  }
+  body .main-locations .main__location .main__map {
+    width: 689px;
+    border-radius: 15px;
+  }
+  body .main-locations .main__location .main__map .main__map-img {
+    width: 689px;
+    position: initial;
+  }
+  body .main-locations .main__location .main__adress {
+    width: 689px;
+    height: 326px;
+    border-radius: 15px;
+  }
+  body .main-locations .main__location .main__adress .main__adress-bg {
+    width: 689px;
+    display: grid;
+    gap: 0;
+    grid-template-columns: 75px 270px 270px 74px;
+    grid-template-rows: 0.5fr 0.5fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main-locations .main__location .main__adress .main__adress-bg .main__country {
+    width: 500px;
+    grid-area: 2/2;
+  }
+  body .main-locations .main__location .main__adress .main__adress-bg .main__adress-block {
+    grid-area: 3/2;
+    align-self: start;
+  }
+  body .main-locations .main__location .main__adress .main__adress-bg .main__adress-block .main__adress-country, body .main-locations .main__location .main__adress .main__adress-bg .main__adress-block .main__adress-text {
+    text-align: start;
+  }
+  body .main-locations .main__location .main__adress .main__adress-bg .main__adress-block .main__adress-text {
+    text-align: start;
+  }
+  body .main-locations .main__location .main__adress .main__adress-bg .main__block-last {
+    grid-area: 3/3;
+    justify-self: center;
+  }
+  body .main-locations .main__location .main__adress .main__bg {
+    width: 689px;
+  }
+}
+@media (min-width: 1440px) {
+  body .main-locations {
+    gap: 32px;
+  }
+  body .main-locations .main__location {
+    width: 1080px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    gap: 32px;
+  }
+  body .main-locations .main__location .main__map {
+    width: 350px;
+  }
+  body .main-locations .main__location .main__map .main__map-img {
+    position: relative;
+    left: -100%;
+  }
+  body .main-locations .main__location .main__map .aus-map {
+    left: -70%;
+  }
+  body .main-locations .main__location .main__map .uk-map {
+    left: -70%;
+  }
+  body .main-locations .main__location .main__adress {
+    width: 730px;
+  }
+  body .main-locations .main__location .main__adress .main__adress-bg {
+    width: 730px;
+  }
+  body .main-locations .main__location .main__adress .main__bg {
+    width: 730px;
+  }
+  body .main-locations .aus-location {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 body .foot, body .foot .foot__container {
   height: 1005px;
