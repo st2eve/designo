@@ -39,6 +39,9 @@
                 width: 152px;
                 height: 56px;
                 padding: 0;
+                &:hover {
+                    background: #FFAD9B;
+                }
                 a {
                     width: 100%;
                     padding: 15px;
@@ -50,6 +53,9 @@
                     letter-spacing: 1px;
                     color: #333136;
                     text-decoration: none;
+                    &:hover {
+                        color: white;
+                    }
                 }
             }
         }
@@ -72,6 +78,14 @@
         .container--web {
             width: 327px;
             height: 250px;
+            a {
+               text-decoration: none;
+               &:hover {
+                background: #E7816B;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            } 
+            }
             .container__img {  
                 height: 100%;
                 background-image: url("/src/images/index_design/Bitmap_7.png");
@@ -113,6 +127,14 @@
         .container--app {
             width: 327px;
             height: 250px;
+            a {
+                text-decoration: none;
+                &:hover {
+                    background: #E7816B;
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                }
+            }
             .container__img {
                 height: 100%;
                 background-image: url("/src/images/index_design/Bitmap_8.png");
@@ -155,6 +177,12 @@
         .container--graphic {
             width: 327px;
             height: 250px;
+            a {
+                text-decoration: none;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
             .container__img {
                 height: 100%;
                 background-image: url("/src/images/index_design/Bitmap_9.jpg");

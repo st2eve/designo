@@ -163,6 +163,10 @@ body .head .head__nav .head__list .head__sublist .head__link {
   color: white;
   text-decoration: none;
 }
+body .head .head__nav .head__list .head__sublist .head__link:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
 body .head .head__burger {
   width: 30px;
   height: 30px;
@@ -243,10 +247,12 @@ body .head .head__burger:checked {
     gap: 42px;
   }
   body .head .head__nav .head__list .head__sublist .head__link {
+    color: #333136;
     text-decoration: none;
   }
-  body .head .head__nav .head__list .head__sublist .head__link p {
-    color: black;
+  body .head .head__nav .head__list .head__sublist .head__link:hover {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
   }
   body .head .head__burger {
     display: none;
@@ -317,6 +323,9 @@ main .section__home__header .container__text button {
   height: 56px;
   padding: 0;
 }
+main .section__home__header .container__text button:hover {
+  background: #FFAD9B;
+}
 main .section__home__header .container__text button a {
   width: 100%;
   padding: 15px;
@@ -328,6 +337,9 @@ main .section__home__header .container__text button a {
   letter-spacing: 1px;
   color: #333136;
   text-decoration: none;
+}
+main .section__home__header .container__text button a:hover {
+  color: white;
 }
 main .section__home__header .container__img {
   width: 100%;
@@ -355,6 +367,14 @@ main .section__home__design {
 main .section__home__design .container--web {
   width: 327px;
   height: 250px;
+}
+main .section__home__design .container--web a {
+  text-decoration: none;
+}
+main .section__home__design .container--web a:hover {
+  background: #E7816B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
 }
 main .section__home__design .container--web .container__img {
   height: 100%;
@@ -410,6 +430,14 @@ main .section__home__design .container--app {
   width: 327px;
   height: 250px;
 }
+main .section__home__design .container--app a {
+  text-decoration: none;
+}
+main .section__home__design .container--app a:hover {
+  background: #E7816B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
 main .section__home__design .container--app .container__img {
   height: 100%;
   background-image: url("/src/images/index_design/Bitmap_8.png");
@@ -463,6 +491,12 @@ main .section__home__design .container--app .container__img .container__text h3 
 main .section__home__design .container--graphic {
   width: 327px;
   height: 250px;
+}
+main .section__home__design .container--graphic a {
+  text-decoration: none;
+}
+main .section__home__design .container--graphic a:hover {
+  opacity: 0.8;
 }
 main .section__home__design .container--graphic .container__img {
   height: 100%;
@@ -2485,6 +2519,11 @@ body .foot .foot__container .foot__contact .foot__contact-project .foot__project
   text-transform: uppercase;
   border: none;
 }
+body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__button:hover {
+  background: #FFAD9B;
+  color: white;
+  cursor: pointer;
+}
 body .foot .foot__container .foot__contact :first-child {
   background-color: white;
 }
@@ -2528,6 +2567,10 @@ body .foot .foot__container .foot__nav .foot__list {
 body .foot .foot__container .foot__nav .foot__list .foot__sublist a {
   text-decoration: none;
   color: white;
+}
+body .foot .foot__container .foot__nav .foot__list .foot__sublist a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 body .foot .foot__container .foot__adress {
   width: 327px;
