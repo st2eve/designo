@@ -1,0 +1,137 @@
+@media (min-width: 1440px) {
+    .main-contact{
+
+        .main__container{
+            width: 1111px;
+
+            .main__form{
+                width: 1111px;
+                height: 480px;
+
+                .main__form-container{
+                    width: 995px;
+                    height: 480px;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    
+
+                    .main__title{
+                        width: 570px;
+                        align-self: flex-start;
+                    }
+                    .main__text{
+                        width: 445px;
+                        align-self: flex-start;
+                    }
+
+                    .main__formulaire{
+                        width: 380px;
+                        height: 420px;
+                        row-gap: 10px;
+
+                        
+                        .main__form-button{
+                            width: 380px;
+                            
+                        }
+                    }
+                    .main__formulaire :last-child{
+                        width: 152px;
+                    }
+                    
+                }
+                
+            }
+            .main__link{
+                height: 680px;
+                width: 1111px;
+                flex-direction: row;
+
+            }
+        }
+    }
+
+    .foot-contact{
+        height: 321px;
+        background-color: #1D1C1E;
+        position: relative;
+
+        .foot__container{
+            width: $WidthDesk;
+            height: 321px;
+            background-color: #1D1C1E;
+            flex-direction: initial;
+            align-items: initial;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            .foot__contact{
+                width: $WidthDesk;
+                height: 350px;
+                background-color: #1D1C1E;
+
+                .foot__contact-bg{
+                    height: 25%;
+                }
+                .foot__contact-project{
+                    width: 1111px;
+                    height: 350px;
+                    left: 165px;
+
+                    .foot__contact-project-img{
+                        width: 1111px;
+                        height: 350px;
+                        left: 0;
+                    }
+                    .foot__project{
+                        width: 1111px;
+                        gap: 20px;
+                        flex-direction: initial;
+                        justify-content: space-around;
+
+                        .foot__project-text{
+                            width: 459px;
+                            align-items: flex-start;
+                        
+                            .foot__title{
+                                height: 90px;
+                                width: 268px;
+                                text-align: start;
+                            }
+                            .foot__text{
+                                text-align: start;
+                            }
+                        }
+                    
+                    }
+                }
+            }
+            .foot__contact :first-child{
+                height: 75%;
+            }
+
+            .foot__logo{
+                width: 1111px;
+            }
+
+            .foot__bar{
+                width: 1111px;
+            }
+
+            .foot__nav{
+                right: 125px;
+                
+            }
+            .foot__adress{
+                width: 350px;
+                
+            }
+            .foot__contact_us{
+                width: 350px;
+                
+            }
+            
+        }
+    }
+}
