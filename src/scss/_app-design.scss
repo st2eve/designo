@@ -66,6 +66,13 @@ main{
                 border-radius: 0 0 15px 15px;
                 width: 327px;
                 background: #FDF3F0;
+                &:hover {
+                    background-color: #E7816B;
+                    cursor: pointer;
+                    h2, p {
+                        color: white;
+                    }
+                }
                 h2 {
                     font-family: 'Jost';
                     font-style: normal;
@@ -102,6 +109,12 @@ main{
         .container--web {
             width: 327px;
             height: 250px;
+            a {
+                text-decoration: none;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
             .container__img {  
                 height: 100%;
                 background-image: url("/src/images/index_design/Bitmap_7.png");
@@ -145,6 +158,12 @@ main{
         .container--graphic {
             width: 327px;
             height: 250px;
+            a {
+                text-decoration: none;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
             .container__img {
                 height: 100%;
                 background-image: url("/src/images/index_design/Bitmap_9.jpg");

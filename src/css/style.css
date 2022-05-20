@@ -1633,6 +1633,13 @@ main .section__app__frame .container .container__text {
   width: 327px;
   background: #FDF3F0;
 }
+main .section__app__frame .container .container__text:hover {
+  background-color: #E7816B;
+  cursor: pointer;
+}
+main .section__app__frame .container .container__text:hover h2, main .section__app__frame .container .container__text:hover p {
+  color: white;
+}
 main .section__app__frame .container .container__text h2 {
   font-family: "Jost";
   font-style: normal;
@@ -1673,6 +1680,12 @@ main .section__app__design {
 main .section__app__design .container--web {
   width: 327px;
   height: 250px;
+}
+main .section__app__design .container--web a {
+  text-decoration: none;
+}
+main .section__app__design .container--web a:hover {
+  opacity: 0.8;
 }
 main .section__app__design .container--web .container__img {
   height: 100%;
@@ -1727,6 +1740,12 @@ main .section__app__design .container--web .container__img .container__text h3 s
 main .section__app__design .container--graphic {
   width: 327px;
   height: 250px;
+}
+main .section__app__design .container--graphic a {
+  text-decoration: none;
+}
+main .section__app__design .container--graphic a:hover {
+  opacity: 0.8;
 }
 main .section__app__design .container--graphic .container__img {
   height: 100%;
