@@ -1002,7 +1002,7 @@ body p {
             align-items: center;
   }
   main .ville .txt {
-    color: red;
+    color: #333136;
     margin-top: 48px;
     font-size: 20px;
   }
@@ -1024,6 +1024,14 @@ body p {
     margin-top: 32px;
     border-radius: 8px;
     font-size: 15px;
+  }
+  main .ville .see:hover {
+    cursor: pointer;
+    background: #FFAD9B;
+  }
+  main .ville .see a {
+    text-decoration: none;
+    color: white;
   }
   main .trois {
     margin-bottom: 120px;
