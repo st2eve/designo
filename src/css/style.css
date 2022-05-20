@@ -835,9 +835,206 @@ body p {
   text-align: center;
 }
 
+main .block {
+  width: 375px;
+}
+main .block .red {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 375px;
+  top: 96px;
+}
+main .block .red h1 {
+  font-family: "Jost";
+  margin-top: 80px;
+  font-weight: 500;
+  line-height: 36px;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+}
+main .block .red p {
+  font-family: "Jost";
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+main .block .pc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .world {
+  width: 375px;
+}
+main .world .women {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 375px;
+  position: relative;
+}
+main .world .test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .world .test h2 {
+  font-family: "Jost";
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  color: #e7816b;
+}
+main .world .test p {
+  font-family: "Jost";
+  margin-top: 140px;
+  width: 375px;
+  text-align: center;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333136;
+}
+main .ville {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
+  height: 1428px;
+  width: 375px;
+}
+main .ville .belgium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 120px;
+}
+main .ville .australia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .ville .kingdom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .ville .txt {
+  color: red;
+  margin-top: 48px;
+  font-size: 20px;
+}
+main .ville .see {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 56px;
+  width: 152px;
+  background-color: #E7816B;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+main .trois {
+  margin-bottom: 120px;
+  width: 375px;
+}
+main .trois .photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .trois .photo img {
+  padding-top: 170px;
+}
+main .trois .real {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 545px;
+  position: relative;
+}
+main .trois .real img {
+  position: absolute;
+  z-index: 5;
+}
+main .trois .real .test {
+  position: absolute;
+  z-index: 6;
+}
+main .trois .real .test h3 {
+  font-family: "Jost";
+  font-size: 32px;
+  margin-top: 80px;
+  color: #e7816b;
+  text-align: center;
+}
+main .trois .real .test p {
+  font-family: "Jost";
+  text-align: center;
+  width: 300px;
+  font-size: 15px;
+  margin-top: 24px;
+  color: #333136;
+}
 @media (min-width: 768px) {
   main .block {
-    width: 375px;
+    width: 632px;
   }
   main .block .red {
     display: -webkit-box;
@@ -848,7 +1045,7 @@ body p {
         -ms-flex-direction: column;
             flex-direction: column;
     position: absolute;
-    width: 375px;
+    width: 632px;
     top: 96px;
   }
   main .block .red h1 {
@@ -872,9 +1069,10 @@ body p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 632px;
   }
   main .world {
-    width: 375px;
+    width: 632px;
   }
   main .world .women {
     display: -webkit-box;
@@ -885,7 +1083,7 @@ body p {
         -ms-flex-direction: column;
             flex-direction: column;
     position: absolute;
-    width: 375px;
+    width: 632px;
     position: relative;
   }
   main .world .test {
@@ -906,131 +1104,12 @@ body p {
   main .world .test p {
     font-family: "Jost";
     margin-top: 140px;
-    width: 375px;
+    width: 632px;
     text-align: center;
     position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: #333136;
-  }
-  main .ville {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 100px;
-    height: 1428px;
-    width: 375px;
-  }
-  main .ville .belgium {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 120px;
-  }
-  main .ville .australia {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  main .ville .kingdom {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  main .ville .txt {
-    color: red;
-    margin-top: 48px;
-    font-size: 20px;
-  }
-  main .ville .see {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 56px;
-    width: 152px;
-    background-color: #E7816B;
-    color: #FFFFFF;
-    margin-bottom: 32px;
-    margin-top: 32px;
-    border-radius: 8px;
-    font-size: 15px;
-  }
-  main .trois {
-    margin-bottom: 120px;
-    width: 375px;
-  }
-  main .trois .photo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  main .trois .photo img {
-    padding-top: 170px;
-  }
-  main .trois .real {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 545px;
-    position: relative;
-  }
-  main .trois .real img {
-    position: absolute;
-    z-index: 5;
-  }
-  main .trois .real .test {
-    position: absolute;
-    z-index: 6;
-  }
-  main .trois .real .test h3 {
-    font-family: "Jost";
-    font-size: 32px;
-    margin-top: 80px;
-    color: #e7816b;
-    text-align: center;
-  }
-  main .trois .real .test p {
-    font-family: "Jost";
-    text-align: center;
-    width: 300px;
-    font-size: 15px;
-    margin-top: 24px;
     color: #333136;
   }
 }

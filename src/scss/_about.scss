@@ -14,7 +14,6 @@ body {
 
 
 main {
-    @media (min-width: 768px) {
     .block {
         width: 375px;
         .red{
@@ -161,5 +160,132 @@ main {
             }
         }
     }
-}
+    
+
+
+    
+@media (min-width: 768px) {
+    .block {
+        width: 632px;
+        .red{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 632px;
+            top: 96px;
+            h1 {
+                font-family: 'Jost';
+                margin-top: 80px;
+                font-weight: 500;
+                line-height: 36px;
+                font-size: 32px;
+                text-align: center;
+                color: white;
+            }
+            p {
+                font-family: 'Jost';
+                margin-top: 24px;
+                display: flex;
+                color: white;
+            }
+        }
+        .pc {
+            display: flex;
+            width: 632px;
+        }
+    }
+
+
+    .world {
+        width: 632px;
+        .women {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 632px;
+            position: relative;
+        }
+        .test {
+            display: flex;
+            h2 {
+                font-family: 'Jost';
+                margin-top: 80px;
+                display: flex;
+                position: absolute;
+                text-align: center;
+                color: #e7816b;
+            }
+            p {
+                font-family: 'Jost';
+                margin-top: 140px;
+                width: 632px;
+                text-align: center;
+                position: absolute;
+                display: flex;
+                color: #333136;
+            }
+        }
+    }
+
+    @media (min-width: 1440px) {
+        .block {
+            width: 632px;
+            .red{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                width: 632px;
+                top: 96px;
+                h1 {
+                    font-family: 'Jost';
+                    margin-top: 80px;
+                    font-weight: 500;
+                    line-height: 36px;
+                    font-size: 32px;
+                    text-align: center;
+                    color: white;
+                }
+                p {
+                    font-family: 'Jost';
+                    margin-top: 24px;
+                    display: flex;
+                    color: white;
+                }
+            }
+            .pc {
+                display: flex;
+                width: 632px;
+            }
+        }
+        .world {
+            width: 632px;
+            .women {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                width: 632px;
+                position: relative;
+            }
+            .test {
+                display: flex;
+                h2 {
+                    font-family: 'Jost';
+                    margin-top: 80px;
+                    display: flex;
+                    position: absolute;
+                    text-align: center;
+                    color: #e7816b;
+                }
+                p {
+                    font-family: 'Jost';
+                    margin-top: 140px;
+                    width: 632px;
+                    text-align: center;
+                    position: absolute;
+                    display: flex;
+                    color: #333136;
+                }
+            }
+        }
+    }
 }
