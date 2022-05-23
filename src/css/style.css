@@ -360,7 +360,7 @@ main .section__home__header .container__text button a:hover {
 main .section__home__header .container__img {
   width: 100%;
   height: 843px;
-  background-image: url("images/Oval.png");
+  background-image: url("../images/Oval.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
