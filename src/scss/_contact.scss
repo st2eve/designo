@@ -54,10 +54,16 @@ body{
                         }
                         .main__form-button{
                             width: $WidthContainer;
-                            background-color: #E7816B;
+                            background-color: transparent;
                             border: none;
                             border-bottom: 1px solid white;
-                            
+                            width: $WidthContainer;
+                            &:hover {
+                                background-color:#FFAD9B;
+                                border: none;
+                                color: white;
+                                cursor: pointer;
+                            }
                         }
                     }
                     .main__formulaire :last-child{
@@ -73,23 +79,9 @@ body{
                         margin: 20px 0 40px 0;
                         align-self: center;
                     }
-<<<<<<< HEAD
                     .main__formulaire :nth-child(8){
                         height: 60px;
-=======
-                    .main__form-button{
-                        width: $WidthContainer;
-                        background-color: #E7816B;
-                        border: none;
-                        border-bottom: 1px solid white;
-                        &:hover {
-                            background-color:#FFAD9B;
-                            border: none;
-                            color: white;
-                            cursor: pointer;
-                        }
                         
->>>>>>> anais
                     }
                 }
 
@@ -268,6 +260,9 @@ body{
                         a{
                             text-decoration: none;
                             color: white;
+                            &:hover{
+                                text-decoration-line: underline;
+                            }
                         }
                     }
                 }
