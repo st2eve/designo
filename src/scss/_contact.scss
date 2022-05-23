@@ -290,6 +290,9 @@ body{
                     
                     .fa-brands{
                         color: #E7816B;
+                        &:hover{
+                            color: #FFAD9B;
+                           }
                     }
                 }
 

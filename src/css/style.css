@@ -402,6 +402,9 @@ main .section__home__design .container--web .container__img .container__text {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 main .section__home__design .container--web .container__img .container__text h2 {
   font-family: "Jost";
@@ -425,6 +428,10 @@ main .section__home__design .container--web .container__img .container__text h3 
 main .section__home__design .container--web .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
+}
+main .section__home__design .container--web .container__img .container__text:hover {
+  background-color: #E7816B;
+  opacity: 0.7;
 }
 main .section__home__design .container--app {
   width: 327px;
@@ -464,6 +471,9 @@ main .section__home__design .container--app .container__img .container__text {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 main .section__home__design .container--app .container__img .container__text h2 {
   font-family: "Jost";
@@ -487,6 +497,10 @@ main .section__home__design .container--app .container__img .container__text h3 
 main .section__home__design .container--app .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
+}
+main .section__home__design .container--app .container__img .container__text:hover {
+  background-color: #E7816B;
+  opacity: 0.7;
 }
 main .section__home__design .container--graphic {
   width: 327px;
@@ -525,6 +539,9 @@ main .section__home__design .container--graphic .container__img .container__text
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 main .section__home__design .container--graphic .container__img .container__text h2 {
   font-family: "Jost";
@@ -548,6 +565,10 @@ main .section__home__design .container--graphic .container__img .container__text
 main .section__home__design .container--graphic .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
+}
+main .section__home__design .container--graphic .container__img .container__text:hover {
+  background-color: #E7816B;
+  opacity: 0.7;
 }
 main .section__home__icons {
   padding-top: 120px;
@@ -1735,6 +1756,9 @@ body .foot-contact .foot__container .foot__list-social .foot__sublist-social {
 body .foot-contact .foot__container .foot__list-social .foot__sublist-social .fa-brands {
   color: #E7816B;
 }
+body .foot-contact .foot__container .foot__list-social .foot__sublist-social .fa-brands:hover {
+  color: #FFAD9B;
+}
 @media (min-width: 768px) {
   body .main-contact .main__container {
     width: 689px;
@@ -2481,6 +2505,9 @@ main .section__app__design .container--web .container__img .container__text {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 main .section__app__design .container--web .container__img .container__text h2 {
   font-family: "Jost";
@@ -2504,6 +2531,10 @@ main .section__app__design .container--web .container__img .container__text h3 {
 main .section__app__design .container--web .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
+}
+main .section__app__design .container--web .container__img .container__text:hover {
+  background-color: #E7816B;
+  opacity: 0.7;
 }
 main .section__app__design .container--graphic {
   width: 327px;
@@ -2542,6 +2573,9 @@ main .section__app__design .container--graphic .container__img .container__text 
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 main .section__app__design .container--graphic .container__img .container__text h2 {
   font-family: "Jost";
@@ -2565,6 +2599,10 @@ main .section__app__design .container--graphic .container__img .container__text 
 main .section__app__design .container--graphic .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
+}
+main .section__app__design .container--graphic .container__img .container__text:hover {
+  background-color: #E7816B;
+  opacity: 0.7;
 }
 
 @media (min-width: 768px) {
@@ -2810,6 +2848,9 @@ main .section__web__header .container__img .container__text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 main .section__web__header .container__img .container__text h1 {
   font-family: "Jost";
@@ -2946,6 +2987,9 @@ main .section__graphic__design .container--app .container__img .container__text 
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 main .section__graphic__design .container--app .container__img .container__text h2 {
   font-family: "Jost";
@@ -2969,6 +3013,10 @@ main .section__graphic__design .container--app .container__img .container__text 
 main .section__graphic__design .container--app .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
+}
+main .section__graphic__design .container--app .container__img .container__text:hover {
+  background-color: #E7816B;
+  opacity: 0.7;
 }
 main .section__graphic__design .container--graphic {
   width: 327px;
@@ -3007,6 +3055,9 @@ main .section__graphic__design .container--graphic .container__img .container__t
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 main .section__graphic__design .container--graphic .container__img .container__text h2 {
   font-family: "Jost";
@@ -3030,6 +3081,10 @@ main .section__graphic__design .container--graphic .container__img .container__t
 main .section__graphic__design .container--graphic .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
+}
+main .section__graphic__design .container--graphic .container__img .container__text:hover {
+  background-color: #E7816B;
+  opacity: 0.7;
 }
 
 @media (min-width: 768px) {
@@ -3407,6 +3462,9 @@ body .foot .foot__container .foot__list-social .foot__sublist-social {
 }
 body .foot .foot__container .foot__list-social .foot__sublist-social .fa-brands {
   color: #E7816B;
+}
+body .foot .foot__container .foot__list-social .foot__sublist-social .fa-brands:hover {
+  color: #FFAD9B;
 }
 @media (min-width: 768px) {
   body .foot, body .foot .foot__container {

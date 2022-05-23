@@ -98,6 +98,9 @@
                     align-items: center;
                     justify-content: center;
                     text-align: center;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 15px;
                     h2 {
                         font-family: 'Jost';
                         font-style: normal;
@@ -121,8 +124,14 @@
                             color: #E7816B;
                         }
                     }
+                    &:hover{
+                        background-color: #E7816B;
+                        opacity: 0.7;
+                    }
                 }
+                
             }
+            
         }    
         .container--app {
             width: 327px;
@@ -147,6 +156,9 @@
                     align-items: center;
                     justify-content: center;
                     text-align: center;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 15px;
                     h2 {
                         font-family: 'Jost';
                         font-style: normal;
@@ -170,7 +182,13 @@
                             color: #E7816B;
                         }
                     }
+                    &:hover{
+                        background-color: #E7816B;
+                        opacity: 0.7;
+                    }
+                    
                 }
+                
             }
         }
 
@@ -196,6 +214,9 @@
                     align-items: center;
                     justify-content: center;
                     text-align: center;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 15px;
                     h2 {
                         font-family: 'Jost';
                         font-style: normal;
@@ -218,6 +239,10 @@
                             padding-left: 16px;
                             color: #E7816B;
                         }
+                    }
+                    &:hover{
+                        background-color: #E7816B;
+                        opacity: 0.7;
                     }
                 }
           
