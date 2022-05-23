@@ -360,7 +360,7 @@ main .section__home__header .container__text button a:hover {
 main .section__home__header .container__img {
   width: 100%;
   height: 843px;
-  background-image: url("/src/images/Oval.png");
+  background-image: url("src/images/Oval.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -389,7 +389,7 @@ main .section__home__design .container--web a {
 }
 main .section__home__design .container--web .container__img {
   height: 100%;
-  background-image: url("/src/images/index_design/Bitmap_7.png");
+  background-image: url("src/images/index_design/Bitmap_7.png");
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -462,7 +462,7 @@ main .section__home__design .container--app a {
 }
 main .section__home__design .container--app .container__img {
   height: 100%;
-  background-image: url("/src/images/index_design/Bitmap_8.png");
+  background-image: url("src/images/index_design/Bitmap_8.png");
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -529,7 +529,7 @@ main .section__home__design .container--graphic a {
 }
 main .section__home__design .container--graphic .container__img {
   height: 100%;
-  background-image: url("/src/images/index_design/Bitmap_9.jpg");
+  background-image: url("src/images/index_design/Bitmap_9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -672,7 +672,7 @@ main .section__home__icons article .container__text p {
   body .section__home__header .container__img {
     width: 100%;
     height: 843px;
-    background-image: url("/src/images/Oval.png");
+    background-image: url("src/images/Oval.png");
     background-repeat: no-repeat;
   }
   body .section__home__design {
@@ -684,7 +684,7 @@ main .section__home__icons article .container__text p {
     height: 200px;
   }
   body .section__home__design .container--web .container__img {
-    background-image: url("/src/images/index_design/Bitmap_4.png");
+    background-image: url("src/images/index_design/Bitmap_4.png");
     background-repeat: no-repeat;
   }
   body .section__home__design .container--web .container__img .container__text h2 {
@@ -698,7 +698,7 @@ main .section__home__icons article .container__text p {
     height: 200px;
   }
   body .section__home__design .container--app .container__img {
-    background-image: url("/src/images/index_design/Bitmap_5.png");
+    background-image: url("src/images/index_design/Bitmap_5.png");
     background-repeat: no-repeat;
   }
   body .section__home__design .container--app .container__img .container__text h2 {
@@ -712,7 +712,7 @@ main .section__home__icons article .container__text p {
     height: 200px;
   }
   body .section__home__design .container--graphic .container__img {
-    background-image: url("/src/images/index_design/Bitmap_6.png");
+    background-image: url("src/images/index_design/Bitmap_6.png");
     background-repeat: no-repeat;
   }
   body .section__home__design .container--graphic .container__img .container__text h2 {
@@ -815,7 +815,7 @@ main .section__home__icons article .container__text p {
   body .section__home__header .container__img {
     width: 100%;
     height: 640px;
-    background-image: url("/src/images/header.png");
+    background-image: url("src/images/header.png");
     background-repeat: no-repeat;
   }
   body .section__home__design {
@@ -834,7 +834,7 @@ main .section__home__icons article .container__text p {
     height: 640px;
   }
   body .section__home__design .container--web .container__img {
-    background-image: url("/src/images/index_design/Bitmap_1.png");
+    background-image: url("src/images/index_design/Bitmap_1.png");
     background-repeat: no-repeat;
   }
   body .section__home__design .container--web .container__img .container__text h2 {
@@ -849,7 +849,7 @@ main .section__home__icons article .container__text p {
     height: 308px;
   }
   body .section__home__design .container--app .container__img {
-    background-image: url("/src/images/index_design/Bitmap_2.png");
+    background-image: url("src/images/index_design/Bitmap_2.png");
     background-repeat: no-repeat;
   }
   body .section__home__design .container--app .container__img .container__text h2 {
@@ -864,7 +864,7 @@ main .section__home__icons article .container__text p {
     height: 308px;
   }
   body .section__home__design .container--graphic .container__img {
-    background-image: url("/src/images/index_design/Bitmap_3.png");
+    background-image: url("src/images/index_design/Bitmap_3.png");
     background-repeat: no-repeat;
   }
   body .section__home__design .container--graphic .container__img .container__text h2 {
@@ -2498,7 +2498,7 @@ main .section__app__header .container__img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("/src/images/app-design/Group 6.png");
+  background-image: url("../src/images/app-design/Group 6.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2623,7 +2623,7 @@ main .section__app__design .container--web a {
 }
 main .section__app__design .container--web .container__img {
   height: 100%;
-  background-image: url("/src/images/index_design/Bitmap_7.png");
+  background-image: url("../src/images/index_design/Bitmap_7.png");
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2690,7 +2690,7 @@ main .section__app__design .container--graphic a {
 }
 main .section__app__design .container--graphic .container__img {
   height: 100%;
-  background-image: url("/src/images/index_design/Bitmap_9.jpg");
+  background-image: url("../src/images/index_design/Bitmap_9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -2757,7 +2757,7 @@ main .section__app__design .container--graphic .container__img .container__text:
   body .section__app__header .container__img {
     width: 100%;
     height: 252px;
-    background-image: url("/src/images/app-design/Group 6.png");
+    background-image: url("../src/images/app-design/Group 6.png");
     background-repeat: no-repeat;
   }
   body .section__app__header .container__img .container__text h1 {
@@ -2832,7 +2832,7 @@ main .section__app__design .container--graphic .container__img .container__text:
     height: 200px;
   }
   body .section__app__design .container--web .container__img {
-    background-image: url("/src/images/index_design/Bitmap_4.png");
+    background-image: url("../src/images/index_design/Bitmap_4.png");
     background-repeat: no-repeat;
   }
   body .section__app__design .container--web .container__img .container__text h2 {
@@ -2846,7 +2846,7 @@ main .section__app__design .container--graphic .container__img .container__text:
     height: 200px;
   }
   body .section__app__design .container--graphic .container__img {
-    background-image: url("/src/images/index_design/Bitmap_6.png");
+    background-image: url("../src/images/index_design/Bitmap_6.png");
     background-repeat: no-repeat;
   }
   body .section__app__design .container--graphic .container__img .container__text h2 {
@@ -2870,7 +2870,7 @@ main .section__app__design .container--graphic .container__img .container__text:
   body .section__app__header .container__img {
     width: 100%;
     height: 252px;
-    background-image: url("/src/images/app-design/header_background.png");
+    background-image: url("../src/images/app-design/header_background.png");
     background-repeat: no-repeat;
   }
   body .section__app__frame {
@@ -2935,7 +2935,7 @@ main .section__app__design .container--graphic .container__img .container__text:
     height: 308px;
   }
   body .section__app__design .container--web .container__img {
-    background-image: url("/src/images/app-design/Bitmap_app.png");
+    background-image: url("../src/images/app-design/Bitmap_app.png");
     background-repeat: no-repeat;
   }
   body .section__app__design .container--web .container__img .container__text h2 {
@@ -2949,7 +2949,7 @@ main .section__app__design .container--graphic .container__img .container__text:
     height: 308px;
   }
   body .section__app__design .container--graphic .container__img {
-    background-image: url("/src/images/index_design/Bitmap_3.png");
+    background-image: url("../src/images/index_design/Bitmap_3.png");
     background-repeat: no-repeat;
   }
   body .section__app__design .container--graphic .container__img .container__text h2 {
@@ -2993,7 +2993,7 @@ main .section__web__header .container__img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("/src/images/app-design/Group 6.png");
+  background-image: url("../src/images/app-design/Group 6.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3118,7 +3118,7 @@ main .section__graphic__design .container--app a {
 }
 main .section__graphic__design .container--app .container__img {
   height: 100%;
-  background-image: url("/src/images/index_design/Bitmap_8.png");
+  background-image: url("../src/images/index_design/Bitmap_8.png");
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3185,7 +3185,7 @@ main .section__graphic__design .container--graphic a {
 }
 main .section__graphic__design .container--graphic .container__img {
   height: 100%;
-  background-image: url("/src/images/index_design/Bitmap_9.jpg");
+  background-image: url("../src/images/index_design/Bitmap_9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -3252,7 +3252,7 @@ main .section__graphic__design .container--graphic .container__img .container__t
   body .section__web__header .container__img {
     width: 100%;
     height: 252px;
-    background-image: url("/src/images/app-design/Group 6.png");
+    background-image: url("../src/images/app-design/Group 6.png");
     background-repeat: no-repeat;
   }
   body .section__web__header .container__img .container__text h1 {
@@ -3327,7 +3327,7 @@ main .section__graphic__design .container--graphic .container__img .container__t
     height: 200px;
   }
   body .section__graphic__design .container--app .container__img {
-    background-image: url("/src/images/index_design/Bitmap_5.png");
+    background-image: url("../src/images/index_design/Bitmap_5.png");
     background-repeat: no-repeat;
   }
   body .section__graphic__design .container--app .container__img .container__text h2 {
@@ -3341,7 +3341,7 @@ main .section__graphic__design .container--graphic .container__img .container__t
     height: 200px;
   }
   body .section__graphic__design .container--graphic .container__img {
-    background-image: url("/src/images/index_design/Bitmap_6.png");
+    background-image: url("../src/images/index_design/Bitmap_6.png");
     background-repeat: no-repeat;
   }
   body .section__graphic__design .container--graphic .container__img .container__text h2 {
@@ -3365,7 +3365,7 @@ main .section__graphic__design .container--graphic .container__img .container__t
   body .section__web__header .container__img {
     width: 100%;
     height: 252px;
-    background-image: url("/src/images/app-design/header_background.png");
+    background-image: url("../src/images/app-design/header_background.png");
     background-repeat: no-repeat;
   }
   body .section__web__frame {
@@ -3430,7 +3430,7 @@ main .section__graphic__design .container--graphic .container__img .container__t
     height: 308px;
   }
   body .section__graphic__design .container--app .container__img {
-    background-image: url("/src/images/index_design/Bitmap_2.png");
+    background-image: url("../src/images/index_design/Bitmap_2.png");
     background-repeat: no-repeat;
   }
   body .section__graphic__design .container--app .container__img .container__text h2 {
@@ -3444,7 +3444,7 @@ main .section__graphic__design .container--graphic .container__img .container__t
     height: 308px;
   }
   body .section__graphic__design .container--graphic .container__img {
-    background-image: url("/src/images/index_design/Bitmap_3.png");
+    background-image: url("../src/images/index_design/Bitmap_3.png");
     background-repeat: no-repeat;
   }
   body .section__graphic__design .container--graphic .container__img .container__text h2 {
