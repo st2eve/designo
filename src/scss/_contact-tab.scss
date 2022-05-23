@@ -1,0 +1,162 @@
+@media (min-width: 768px) {
+
+    .main-contact{
+
+        .main__container{
+            width: 689px;
+
+            .main__form{
+                height: 711px;
+                width: 689px;
+                overflow: hidden;
+                
+
+                .main__form-container{
+                    width: 573px;
+                    justify-content: center;
+                    align-items: start;
+                    row-gap: 10px;
+                    margin-left: 58px;
+                    
+                    
+
+                    .main__title{
+                        margin-top: 0;
+                        text-align: start;
+                        margin-bottom: 32px;
+                    }
+                    .main__text{
+                        text-align: start;
+                        margin-bottom: 32px;
+                        width: 573px;
+                    }
+
+                    .main__formulaire{
+                        
+                        .main__form-button{
+                            width: 573px;
+                            
+                        }
+                    }
+                    .main__formulaire :last-child{
+                        width: 152px;
+                        align-self: flex-end;
+                    }
+                }
+
+                
+            }
+            .main__link{
+                width: 689px;
+                align-items: center;
+
+            }
+        }
+    }
+    .foot-contact{
+        height: 337px;
+        background-color: #1D1C1E;
+        position: relative;
+    
+        .foot__container{
+            width: $WidthTab;
+            height: 337px;
+            background-color: #1D1C1E;
+            flex-direction: initial;
+            align-items: initial;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+    
+            .foot__contact{
+                width: $WidthTab;
+                height: 350px;
+                background-color: #1D1C1E;
+    
+                .foot__contact-bg{
+                    height: 25%;
+                }
+                .foot__contact-project{
+                    width: 690px;
+                    height: 350px;
+                    left: 39px;
+    
+                    .foot__contact-project-img{
+                        width: 690px;
+                        height: 350px;
+                        left: 0;
+                    }
+                    .foot__project{
+                        width: 410px;
+                        gap: 20px;
+    
+                        .foot__project-text{
+                            gap: 0;
+                            height: 150px;
+                            .foot__title{
+                                height: 90px;
+                                width: 275px;
+                            }
+                        }
+                    }
+                }
+            }
+            .foot__contact :first-child{
+                height: 75%;
+            }
+    
+            .foot__logo{
+                width: 687px;
+                height: 27px;
+                justify-content: initial;
+            }
+    
+            .foot__bar{
+                width: 690px;
+                height: 0;
+            }
+    
+            .foot__nav{
+                height: 27px;
+                position: absolute;
+                right: 0;
+                top: 55px;
+    
+                .foot__list{
+                    flex-direction: initial;
+                    justify-content: space-evenly;
+                    
+                }
+            }
+            .foot__adress{
+                width: 223px;
+                text-align: start;
+    
+                .foot__text{
+                    text-align: start;
+                }
+            }
+            .foot__contact_us{
+                width: 223px;
+                text-align: start;
+    
+                .foot__text{
+                    text-align: start;
+                }
+            }
+            .foot__list-social{
+                height: 78px;
+                align-items: flex-end;
+    
+                .foot__sublist-social{
+                    
+                    
+                    .fa-brands{
+                        font-size: 24px;
+                    }
+                }
+    
+                
+            }
+        }
+    }
+}

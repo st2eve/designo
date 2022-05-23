@@ -7,19 +7,27 @@ body {
         flex-direction: column;
         justify-content: start;
         align-items: center;
+        gap: 50px;
 
         .main__location{
             width: $WidthMob;
-            height: 714px;
             
 
             .main__map{
                 width: $WidthMob;
                 height: 320px;
+                overflow: hidden;
 
-                .main_map-img{
-                    width: $WidthMob;
-                    height: 320px;
+                .main__map-img{
+                    position: relative;
+                    left: -80%;
+                }
+
+                .aus-map{
+                    left: -50%;
+                }
+                .uk-map{
+                    left: -60%;
                 }
             }
 
@@ -29,6 +37,7 @@ body {
                 display: flex;
                 justify-content: center;
                 position: relative;
+                overflow: hidden;
 
                 .main__adress-bg{
                     width: $WidthContainer;
@@ -64,7 +73,6 @@ body {
                     }
                 }
                 .main__bg{
-                    width: $WidthMob;
                     height: 394px;
                     position: absolute;
                     z-index: 4;
@@ -75,6 +83,9 @@ body {
             margin-bottom: 120px;
         }
     }
+
+    @import '_location-tab.scss';
+    @import '_location-desk.scss';
 
 
     .foot{
@@ -151,4 +162,7 @@ body {
             }
         }
     }
+
+    
+
 }

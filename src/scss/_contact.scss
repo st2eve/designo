@@ -2,7 +2,7 @@
 
 body{
 
-    .main{
+    .main-contact{
 
         .main__container{
             width: $WidthMob;
@@ -10,6 +10,9 @@ body{
             .main__form{
                 display: flex;
                 z-index: 4;
+                height: 764px;
+                overflow: hidden;
+                border-radius: 15px;   
 
                 .main__form-container{
                     position: absolute;
@@ -20,6 +23,7 @@ body{
                     justify-content: space-evenly;
                     height: 764px;
                     align-items: center;
+                    row-gap: 32px;
 
                     .main__title{
                         width: $WidthContainer;
@@ -36,33 +40,42 @@ body{
                         font-size: 15px;
                         line-height: 25px;
                     }
-                    .main__form-label{
-                        width: 290px;
+
+                    .main__formulaire{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 25px;
+                        .main__form-label{
+                            width: 290px;
+                            font-size: 15px;
+                            font-weight: 500;
+                            line-height: 26px;
+                            font-style: normal;
+                        }
+                        .main__form-button{
+                            width: $WidthContainer;
+                            background-color: #E7816B;
+                            border: none;
+                            border-bottom: 1px solid white;
+                            
+                        }
+                    }
+                    .main__formulaire :last-child{
+                        background-color: white;
+                        width: 152px;
+                        height: 56px;
+                        border-radius: 8px;
                         font-size: 15px;
                         font-weight: 500;
-                        line-height: 26px;
-                        font-style: normal;
+                        line-height: 22px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        margin: 20px 0 40px 0;
+                        align-self: center;
                     }
-                    .main__form-button{
-                        width: $WidthContainer;
-                        background-color: #E7816B;
-                        border: none;
-                        border-bottom: 1px solid white;
-                        
+                    .main__formulaire :nth-child(8){
+                        height: 60px;
                     }
-                }
-
-                .main__form-container :last-child{
-                    background-color: white;
-                    width: 152px;
-                    height: 56px;
-                    border-radius: 8px;
-                    font-size: 15px;
-                    font-weight: 500;
-                    line-height: 22px;
-                    letter-spacing: 1px;
-                    text-transform: uppercase;
-                    margin: 20px 0 40px 0;
                 }
 
                 .main__img{
@@ -118,29 +131,31 @@ body{
         }
     }
 
+    
+
     .foot-contact{
-        width: $WidthMob;
         height: 626px;
         background-color: #1D1C1E;
 
-        .foot__container-contact{
+        .foot__container{
             @extend .foot-contact;
             color: white;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: space-between;
 
-            .foot__contact-contact{
+            .foot__contact{
                 width: $WidthMob;
                 height: 379px;
                 display: none;
 
-                .foot__contact-bg-contact{
+                .foot__contact-bg{
                     height: 50%;
                 }
-                .foot__contact-project-contact{
+                .foot__contact-project{
                     width: $WidthContainer;
+                    height: 379px;
                     position: relative;
                     left: 24px;
                     top: -100%;
@@ -148,35 +163,38 @@ body{
                     border-radius: 15px;
                     display: flex;
                     justify-content: center;
+                    overflow: hidden;
 
-                    .foot__contact-project-img-contact{
-                        width: $WidthContainer;
+                    .foot__contact-project-img{
                         background-color: #1D1C1E;
                         border-radius: 15px;
                     }
-                    .foot__project-contact{
+                    .foot__project{
                         width: 279px;
                         height: 100%;
-                        position: absolute;
-                        top: 0;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        gap: 32px;
+                        
 
-                        .foot__title-contact{
+                        .foot__project-text{
                             background-color: transparent;
-                            font-size: 32px;
-                            font-weight: 500;
-                            line-height: 36px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 32px;
+                            
+                            .foot__title{
+                                background-color: transparent;
+                                font-size: 32px;
+                                font-weight: 500;
+                                line-height: 36px;
+                            }
+                            .foot__text{
+                                font-size: 15px;
+                                font-weight: 400;
+                                line-height: 25px;
+                            }
                         }
-                        .foot__text-contact{
-                            font-size: 15px;
-                            font-weight: 400;
-                            line-height: 25px;
-                        }
-                        .foot__button-contact{
+                        .foot__button{
                             background-color: #fff;
                             width: 152px;
                             height: 56px;
@@ -191,24 +209,26 @@ body{
                     }
                 }
             }
-            .foot__contact-contact :first-child{
+            .foot__contact :first-child{
                 background-color: white;
             }
 
-            .foot__logo-contact{
-                width: $WidthMob;
+            .foot__logo{
+                width: 197px;
+                height: 27px;
                 display: flex;
                 justify-content: center;
                 gap: 16px;
+                margin-top: 50px;
             }
 
-            .foot__bar-contact{
+            .foot__bar{
                 width: $WidthContainer;
                 border: 1px solid white;
                 opacity: 0.1;
             }
 
-            .foot__nav-contact{
+            .foot__nav{
                 width: $WidthMob;
                 height: 106px;
                 text-align: center;
@@ -217,13 +237,13 @@ body{
                 line-height: 14px;
                 letter-spacing: 2px;
 
-                .foot__list-contact{
+                .foot__list{
                     height: 106px;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-around;
                     
-                    .foot__sublist-contact{
+                    .foot__sublist{
                         
                         a{
                             text-decoration: none;
@@ -232,24 +252,24 @@ body{
                     }
                 }
             }
-            .foot__adress-contact{
+            .foot__adress{
                 width: $WidthContainer;
                 text-align: center;
                 opacity: 0.5;
             }
-            .foot__contact_us-contact{
+            .foot__contact_us{
                 width: $WidthContainer;
                 text-align: center;
                 opacity: 0.5;
             }
-            .foot__list-social-contact{
+            .foot__list-social{
                 width: 183px;
-                height: 30px;
+                height: 90px;
                 display: flex;
                 align-items: flex-start;
                 justify-content: space-between;
 
-                .foot__sublist-social-contact{
+                .foot__sublist-social{
                     width: 24px;
                     height: 24px;
                     
@@ -262,4 +282,6 @@ body{
             }
         }
     }
+    @import '_contact-tab.scss';
+    @import '_contact-desk.scss';
 }
