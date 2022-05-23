@@ -446,12 +446,13 @@ main .section__home__design .container--web .container__img .container__text h3 
 main .section__home__design .container--web .container__img .container__text:hover {
   background-color: #E7816B;
   opacity: 0.8;
-}
-main .section__home__design .container--web .container__img .container__text:hover h2, main .section__home__design .container--web .container__img .container__text:hover h3 {
-  opacity: 1;
-}
-main .section__home__design .container--web .container__img .container__text:hover h2 span, main .section__home__design .container--web .container__img .container__text:hover h3 span {
-  opacity: 1;
+  /*h2,h3{
+      opacity: 1;
+
+      span{
+          opacity: 1;
+      }
+  }*/
 }
 main .section__home__design .container--app {
   width: 327px;
