@@ -1,7 +1,12 @@
 @import '_variables.scss';
 
 body{
-
+    .rectanglebis-contact{
+        display: none;
+    }
+    .rectangle-contact{
+        display: none;
+    }
     .main-contact{
 
         .main__container{
@@ -51,6 +56,7 @@ body{
                             font-weight: 500;
                             line-height: 26px;
                             font-style: normal;
+                            margin-left: 20px;
                         }
                         .main__form-button{
                             width: $WidthContainer;
@@ -81,11 +87,12 @@ body{
                     }
                     .main__formulaire :nth-child(8){
                         height: 60px;
-                        
                     }
                 }
-
                 .main__img{
+                    display: none;
+                }
+                .main__img-mobile{
                     color: white;
                 }
             

@@ -33,6 +33,7 @@
 
                     .main__formulaire{
                         row-gap: 15px;
+                        
                         .main__form-button{
                             width: 573px;
                             
@@ -43,7 +44,15 @@
                         align-self: flex-end;
                     }
                 }
-
+                .main__img{
+                    display: block;
+                    color: white;
+                    position: relative;
+                    left: -260px;
+                }
+                .main__img-mobile{
+                    display: none;
+                }
                 
             }
             .main__link{

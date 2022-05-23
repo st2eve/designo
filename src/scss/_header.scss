@@ -31,9 +31,10 @@ body{
 
             .head__submenu-bis{
                 @extend .head__submenu;
-                width: 21px;
-                border: 2px solid #1D1C1E;
-                height: 0;
+                width: 20px;
+                border: 2px solid #1d1c1e;
+                height: 0.5px;
+                background-color: #1d1c1e;
 
                 img{
                     width: 24px;

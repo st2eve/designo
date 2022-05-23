@@ -1,4 +1,11 @@
+.rectangle-home{
+    display: none;
+ }
+ .rectanglebis-home{
+    display: none;
+ }
  main{
+    z-index: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,6 +111,7 @@
                         line-height: 36px;
                         letter-spacing: 1.4px;
                         color: #FFFFFF;
+                        opacity: 1;
                         margin-bottom: 11.97px;  
                     }
                     h3{
@@ -114,16 +122,23 @@
                         line-height: 22px;
                         letter-spacing: 5px;
                         color: #FFFFFF;
+                        opacity: 1;
                         span {
                             padding-left: 16px;
                             color: #E7816B;
+                            opacity: 1;
                         }
                     }
                     &:hover {
                         background-color: #E7816B;
                         opacity: 0.8;
-                        h2, h3 {
-                            color: white;
+    
+                        h2,h3{
+                            opacity: 1;
+
+                            span{
+                                opacity: 1;
+                            }
                         }
                     }
                 }
@@ -296,6 +311,12 @@
 
 body {
     @media (min-width: 768px) {
+        .rectangle-home{
+            display: none;
+         }
+         .rectanglebis-home{
+            display: none;
+         }
         .section__home__header {
             width: 689px; 
             .container__text {
@@ -417,6 +438,20 @@ body {
     }
 
     @media (min-width: 1440px) {
+        .rectangle-home{
+            display: block;
+            position: absolute;
+            left: -40px;
+            top: 345px;
+            z-index: 1;
+         }
+         .rectanglebis-home{
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: -1500px;
+            z-index: 1;
+         }
         .section__home__header {
             width: 1111px;
             display: flex;

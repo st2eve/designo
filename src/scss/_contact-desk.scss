@@ -1,4 +1,11 @@
 @media (min-width: 1440px) {
+     .rectanglebis-contact{
+         display: block;
+        position: absolute;
+        right: 0;
+        bottom: -515px;
+        z-index: 1;
+     }
     .main-contact{
 
         .main__container{
@@ -26,11 +33,10 @@
                     }
 
                     .main__formulaire{
-                        width: 380px;
-                        height: 420px;
+                        width: 400px;
+                        height: 380px;
                         row-gap: 10px;
 
-                        
                         .main__form-button{
                             width: 380px;
                             
@@ -38,8 +44,16 @@
                     }
                     .main__formulaire :last-child{
                         width: 152px;
+                        margin-bottom: 0;
                     }
                     
+                }
+                .main__img{
+                    position: relative;
+                    left: 0;
+                }
+                .main__img-mobile{
+                    display: none;
                 }
                 
             }
@@ -56,6 +70,7 @@
         height: 321px;
         background-color: #1D1C1E;
         position: relative;
+        z-index: 2;
 
         .foot__container{
             width: $WidthDesk;

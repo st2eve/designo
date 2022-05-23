@@ -11,8 +11,12 @@ body {
         text-align: center;
     }
 }
-
-
+.rectangle-about{
+    display: none;
+ }
+ .rectanglebis-about{
+    display: none;
+ }
 main {
     .block {
         width: 375px;
@@ -23,6 +27,7 @@ main {
             position: relative;
             width: 375px;
             height: 395px;
+            
 
             .red__text{
                 position: absolute;
@@ -56,6 +61,10 @@ main {
             display: flex;
             height: 320px;
 
+            img{
+                width: 100%;
+            }
+
         }
     }
 
@@ -71,6 +80,15 @@ main {
             width: 375px;
             height: 320px;
             position: relative;
+            overflow: hidden;
+
+            img{
+                position: absolute;
+                top: -197px;
+                left: -31px;
+                width: 420px;
+                height: 518px;
+            }
         }
         .test {
             display: flex;
@@ -219,16 +237,26 @@ main {
 
 body { 
     @media (min-width: 768px) {
+        .rectangle-about{
+            display: none;
+         }
+         .rectanglebis-about{
+            display: none;
+         }
         .block {
             width: 689px;
             height: 632px;
             margin-bottom: 120px;
             .red{
                 width: 100%;
-                height: 312px; 
+                height: 312px;
+                overflow: hidden;
                 img {
-                    width: 100%;
-                    height: 100%;
+                    width: 170%;
+                    height: 450%;
+                    position: relative;
+                    top: -739px;
+                    left: -480px;
                     border-radius: 0 0 15px 15px;
                 }
                 .red__text{
@@ -250,9 +278,14 @@ body {
             .pc {
                 width: 689px;
                 height: 320px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 15px 15px 0 0;
                 img {
                     width: 100%;
-                    height: 100%;
+                    height: 150%;
+                    position: absolute;
+                    top: -77px;
                     border-radius: 15px 15px 0 0; 
                 }
             }
@@ -263,9 +296,12 @@ body {
             .women {
                 width: 100%;
                 height: 320px;
+                border-radius: 15px 15px 0 0;
                 img {
                     width: 100%;
-                    height: 100%;
+                    height: 280%;
+                    top: -391px;
+                    left: 0;
                     border-radius: 15px 15px 0 0;
                 }
             }
@@ -311,9 +347,14 @@ body {
             .photo {
                 width: 100%;
                 height: 320px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 15px 15px 0 0;
                 img {
                     width: 100%;
-                    height: 100%;
+                    height: 170%;
+                    position: absolute;
+                    top: -50px;
                     border-radius: 15px 15px 0 0;
                 }
             }
@@ -345,6 +386,19 @@ body {
     }
     
     @media (min-width: 1440px) {
+        .rectangle-about{
+            display: block;
+            position: absolute;
+            left: -40px;
+            top: 345px;
+            z-index: 1;
+         }
+         .rectanglebis-about{
+             display: block;
+            bottom: -1478px;
+            position: absolute;
+            right: 0;
+         }
         .block {
             width: 1111px;
             height: 480px;
@@ -353,18 +407,23 @@ body {
             .red{
                 height: 100%;
                 width: 635px;
+                overflow: hidden;
                 img {
                     width: 100%;
-                    height: 100%;
+                    height: 300%;
+                    position: relative;
+                    top: -415px;
+                    left: 0;
                     border-radius: 15px 0 0 15px;
                 }
             }
             .pc {
                 height: 100%;
                 width: 476px;
+                border-radius: 0 15px 15px 0;
                 img {
-                    width: 100%;
                     height: 100%;
+                    top: 0;
                     border-radius: 0 15px 15px 0;
                 }
             }
@@ -376,9 +435,11 @@ body {
             .women {
                 height: 100%;
                 width: 476px;
+                border-radius: 15px 0 0 15px;
                 img {
                     width: 100%;
                     height: 100%;
+                    top: 0;
                     border-radius: 15px 0 0 15px;
                 }
             }
@@ -430,9 +491,11 @@ body {
             .photo {
                 height: 100%;
                 width: 477px;
+                border-radius: 0 15px 15px 0;
                 img {
                     width: 100%;
                     height: 100%;
+                    top: 0;
                     border-radius: 0 15px 15px 0;
                 }
             }

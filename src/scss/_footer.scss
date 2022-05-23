@@ -5,6 +5,7 @@ body{
     .foot{
         height: 1005px;
         background-color: #1D1C1E;
+        
 
         .foot__container{
             @extend .foot;
@@ -22,6 +23,7 @@ body{
                     height: 50%;
                 }
                 .foot__contact-project{
+                    z-index: 2;
                     width: $WidthContainer;
                     height: 379px;
                     position: relative;
@@ -36,6 +38,9 @@ body{
                     .foot__contact-project-img{
                         background-color: #1D1C1E;
                         border-radius: 15px;
+                        position: absolute;
+                        height: 379px;
+                        left: -672px;
                     }
                     .foot__project{
                         width: 279px;

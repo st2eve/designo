@@ -1,3 +1,9 @@
+.rectangle-web{
+    display: none;
+ }
+ .rectanglebis-web{
+    display: none;
+ }
 main{
     display: flex;
     flex-direction: column;
@@ -319,6 +325,14 @@ body {
     }
 
     @media (min-width: 1440px) {
+
+        .rectangle-web{
+            display: block;
+            position: absolute;
+            left: -40px;
+            top: 345px;
+            z-index: 1;
+         }
         .section__web__header {
             width: 1111px; 
             .container__img {
