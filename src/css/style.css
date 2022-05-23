@@ -371,11 +371,6 @@ main .section__home__design .container--web {
 main .section__home__design .container--web a {
   text-decoration: none;
 }
-main .section__home__design .container--web a:hover {
-  background: #E7816B;
-  mix-blend-mode: normal;
-  opacity: 0.8;
-}
 main .section__home__design .container--web .container__img {
   height: 100%;
   background-image: url("/src/images/index_design/Bitmap_7.png");
@@ -431,7 +426,10 @@ main .section__home__design .container--web .container__img .container__text h3 
 }
 main .section__home__design .container--web .container__img .container__text:hover {
   background-color: #E7816B;
-  opacity: 0.7;
+  opacity: 0.8;
+}
+main .section__home__design .container--web .container__img .container__text:hover h2, main .section__home__design .container--web .container__img .container__text:hover h3 {
+  color: white;
 }
 main .section__home__design .container--app {
   width: 327px;
@@ -439,11 +437,6 @@ main .section__home__design .container--app {
 }
 main .section__home__design .container--app a {
   text-decoration: none;
-}
-main .section__home__design .container--app a:hover {
-  background: #E7816B;
-  mix-blend-mode: normal;
-  opacity: 0.8;
 }
 main .section__home__design .container--app .container__img {
   height: 100%;
@@ -500,7 +493,10 @@ main .section__home__design .container--app .container__img .container__text h3 
 }
 main .section__home__design .container--app .container__img .container__text:hover {
   background-color: #E7816B;
-  opacity: 0.7;
+  opacity: 0.8;
+}
+main .section__home__design .container--app .container__img .container__text:hover h2, main .section__home__design .container--app .container__img .container__text:hover h3 {
+  color: #FFFFFF;
 }
 main .section__home__design .container--graphic {
   width: 327px;
@@ -508,9 +504,6 @@ main .section__home__design .container--graphic {
 }
 main .section__home__design .container--graphic a {
   text-decoration: none;
-}
-main .section__home__design .container--graphic a:hover {
-  opacity: 0.8;
 }
 main .section__home__design .container--graphic .container__img {
   height: 100%;
@@ -543,6 +536,13 @@ main .section__home__design .container--graphic .container__img .container__text
   width: 100%;
   border-radius: 15px;
 }
+main .section__home__design .container--graphic .container__img .container__text:hover {
+  background-color: #E7816B;
+  opacity: 0.8;
+}
+main .section__home__design .container--graphic .container__img .container__text:hover h2, main .section__home__design .container--graphic .container__img .container__text:hover h3 {
+  color: white;
+}
 main .section__home__design .container--graphic .container__img .container__text h2 {
   font-family: "Jost";
   font-style: normal;
@@ -565,10 +565,6 @@ main .section__home__design .container--graphic .container__img .container__text
 main .section__home__design .container--graphic .container__img .container__text h3 span {
   padding-left: 16px;
   color: #E7816B;
-}
-main .section__home__design .container--graphic .container__img .container__text:hover {
-  background-color: #E7816B;
-  opacity: 0.7;
 }
 main .section__home__icons {
   padding-top: 120px;
@@ -2476,9 +2472,6 @@ main .section__app__design .container--web {
 main .section__app__design .container--web a {
   text-decoration: none;
 }
-main .section__app__design .container--web a:hover {
-  opacity: 0.8;
-}
 main .section__app__design .container--web .container__img {
   height: 100%;
   background-image: url("/src/images/index_design/Bitmap_7.png");
@@ -2534,7 +2527,10 @@ main .section__app__design .container--web .container__img .container__text h3 s
 }
 main .section__app__design .container--web .container__img .container__text:hover {
   background-color: #E7816B;
-  opacity: 0.7;
+  opacity: 0.8;
+}
+main .section__app__design .container--web .container__img .container__text:hover h2, main .section__app__design .container--web .container__img .container__text:hover h3 {
+  color: white;
 }
 main .section__app__design .container--graphic {
   width: 327px;
@@ -2542,9 +2538,6 @@ main .section__app__design .container--graphic {
 }
 main .section__app__design .container--graphic a {
   text-decoration: none;
-}
-main .section__app__design .container--graphic a:hover {
-  opacity: 0.8;
 }
 main .section__app__design .container--graphic .container__img {
   height: 100%;
@@ -2602,7 +2595,10 @@ main .section__app__design .container--graphic .container__img .container__text 
 }
 main .section__app__design .container--graphic .container__img .container__text:hover {
   background-color: #E7816B;
-  opacity: 0.7;
+  opacity: 0.8;
+}
+main .section__app__design .container--graphic .container__img .container__text:hover h2, main .section__app__design .container--graphic .container__img .container__text:hover h3 {
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -2621,6 +2617,7 @@ main .section__app__design .container--graphic .container__img .container__text:
     margin-bottom: 25px;
   }
   body .section__app__header .container__img .container__text p {
+    width: 350px;
     text-align: center;
     font-size: 16px;
     line-height: 26px;
@@ -2848,9 +2845,6 @@ main .section__web__header .container__img .container__text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100%;
-  width: 100%;
-  border-radius: 15px;
 }
 main .section__web__header .container__img .container__text h1 {
   font-family: "Jost";
@@ -2958,9 +2952,6 @@ main .section__graphic__design .container--app {
 main .section__graphic__design .container--app a {
   text-decoration: none;
 }
-main .section__graphic__design .container--app a:hover {
-  opacity: 0.8;
-}
 main .section__graphic__design .container--app .container__img {
   height: 100%;
   background-image: url("/src/images/index_design/Bitmap_8.png");
@@ -3016,7 +3007,10 @@ main .section__graphic__design .container--app .container__img .container__text 
 }
 main .section__graphic__design .container--app .container__img .container__text:hover {
   background-color: #E7816B;
-  opacity: 0.7;
+  opacity: 0.8;
+}
+main .section__graphic__design .container--app .container__img .container__text:hover h2, main .section__graphic__design .container--app .container__img .container__text:hover h3 {
+  color: white;
 }
 main .section__graphic__design .container--graphic {
   width: 327px;
@@ -3024,9 +3018,6 @@ main .section__graphic__design .container--graphic {
 }
 main .section__graphic__design .container--graphic a {
   text-decoration: none;
-}
-main .section__graphic__design .container--graphic a:hover {
-  opacity: 0.8;
 }
 main .section__graphic__design .container--graphic .container__img {
   height: 100%;
@@ -3084,7 +3075,10 @@ main .section__graphic__design .container--graphic .container__img .container__t
 }
 main .section__graphic__design .container--graphic .container__img .container__text:hover {
   background-color: #E7816B;
-  opacity: 0.7;
+  opacity: 0.8;
+}
+main .section__graphic__design .container--graphic .container__img .container__text:hover h2, main .section__graphic__design .container--graphic .container__img .container__text:hover h3 {
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -3103,6 +3097,7 @@ main .section__graphic__design .container--graphic .container__img .container__t
     margin-bottom: 25px;
   }
   body .section__web__header .container__img .container__text p {
+    width: 400px;
     text-align: center;
     font-size: 16px;
     line-height: 26px;
