@@ -1138,85 +1138,273 @@ main .trois .real .test p {
   margin-top: 24px;
   color: #333136;
 }
+
+@media (min-width: 768px) {
+  body .block {
+    width: 689px;
+    height: 632px;
+    margin-bottom: 120px;
+  }
+  body .block .red {
+    width: 100%;
+    height: 312px;
+  }
+  body .block .red img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 15px;
+  }
+  body .block .red .red__text {
+    width: 100%;
+    height: 100%;
+    gap: 32px;
+  }
+  body .block .red .red__text h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  body .block .red .red__text p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 573px;
+    height: auto;
+  }
+  body .block .pc {
+    width: 689px;
+    height: 320px;
+  }
+  body .block .pc img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+  body .world {
+    width: 689px;
+    height: 736px;
+  }
+  body .world .women {
+    width: 100%;
+    height: 320px;
+  }
+  body .world .women img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+  body .world .test {
+    width: 100%;
+    height: 416px;
+  }
+  body .world .test img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 15px;
+  }
+  body .world .test .red__text {
+    height: 416px;
+    width: 100%;
+  }
+  body .world .test .red__text h2 {
+    font-size: 40px;
+    line-height: 48px;
+    height: 48px;
+    width: 572px;
+  }
+  body .world .test .red__text p {
+    width: 572px;
+    height: 208px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  body .ville {
+    margin-bottom: 40px;
+    gap: 80px;
+  }
+  body .ville .see {
+    margin-bottom: 0;
+  }
+  body .trois {
+    margin-top: 0;
+    width: 100%;
+    height: 736px;
+  }
+  body .trois .photo {
+    width: 100%;
+    height: 320px;
+  }
+  body .trois .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+  body .trois .real {
+    width: 100%;
+    height: 416px;
+  }
+  body .trois .real img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 15px;
+  }
+  body .trois .real .test {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  body .trois .real .test h3 {
+    height: 48px;
+  }
+  body .trois .real .test p {
+    width: 572px;
+    margin-top: 0;
+  }
+}
 @media (min-width: 1440px) {
-  main .block {
-    width: 632px;
-  }
-  main .block .red {
+  body .block {
+    width: 1111px;
+    height: 480px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  body .block .red {
+    height: 100%;
+    width: 635px;
+  }
+  body .block .red img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+  }
+  body .block .pc {
+    height: 100%;
+    width: 476px;
+  }
+  body .block .pc img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+  }
+  body .world {
+    width: 1111px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: absolute;
-    width: 632px;
-    top: 96px;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
-  main .block .red h1 {
-    font-family: "Jost";
-    margin-top: 80px;
-    font-weight: 500;
-    line-height: 36px;
-    font-size: 32px;
-    text-align: center;
-    color: white;
+  body .world .women {
+    height: 100%;
+    width: 476px;
   }
-  main .block .red p {
-    font-family: "Jost";
-    margin-top: 24px;
+  body .world .women img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+  }
+  body .world .test {
+    height: 100%;
+    width: 635px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: white;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  main .block .pc {
+  body .world .test img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+  }
+  body .world .test .red__text {
+    width: 445px;
+  }
+  body .world .test .red__text h2 {
+    text-align: left;
+    width: 100%;
+  }
+  body .world .test .red__text p {
+    text-align: left;
+    width: 100%;
+  }
+  body .ville {
+    width: 1111px;
+    height: 364px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 632px;
-  }
-  main .world {
-    width: 632px;
-  }
-  main .world .women {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: absolute;
-    width: 632px;
-    position: relative;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 160px 0 160px 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  main .world .test {
+  body .ville .belgium {
+    margin-top: 0;
+  }
+  body .trois {
+    width: 1111px;
+    height: 640px;
+    margin-bottom: 160px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
   }
-  main .world .test h2 {
-    font-family: "Jost";
-    margin-top: 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    text-align: center;
-    color: #e7816b;
+  body .trois .photo {
+    height: 100%;
+    width: 477px;
   }
-  main .world .test p {
-    font-family: "Jost";
-    margin-top: 140px;
-    width: 632px;
-    text-align: center;
-    position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: #333136;
+  body .trois .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+  }
+  body .trois .real {
+    height: 100%;
+    width: 634px;
+  }
+  body .trois .real img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+  }
+  body .trois .real .test h3 {
+    width: 445px;
+    text-align: left;
+  }
+  body .trois .real .test p {
+    width: 445px;
+    text-align: left;
   }
 }
 
