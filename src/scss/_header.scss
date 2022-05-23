@@ -31,8 +31,15 @@ body{
 
             .head__submenu-bis{
                 @extend .head__submenu;
+                width: 21px;
                 border: 2px solid #1D1C1E;
                 height: 0;
+
+                img{
+                    width: 24px;
+                    height: 24px;
+                    visibility: hidden;
+                }
             }
         }
     }
@@ -85,10 +92,10 @@ body{
     }
     .head__burger:checked+.head__menu{
         visibility: hidden;
-    }
-    .head__burger:checked{
-        opacity: 1;
-        
+
+        img{
+            visibility: initial;
+        }
     }
 
     

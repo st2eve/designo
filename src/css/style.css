@@ -121,8 +121,14 @@ body .head .head__menu .head__submenu, body .head .head__menu .head__submenu .he
   gap: 4px;
 }
 body .head .head__menu .head__submenu .head__submenu-bis {
+  width: 21px;
   border: 2px solid #1D1C1E;
   height: 0;
+}
+body .head .head__menu .head__submenu .head__submenu-bis img {
+  width: 24px;
+  height: 24px;
+  visibility: hidden;
 }
 body .head .head__nav {
   width: 375px;
@@ -182,8 +188,8 @@ body .head .head__burger:checked ~ .head__nav {
 body .head .head__burger:checked + .head__menu {
   visibility: hidden;
 }
-body .head .head__burger:checked {
-  opacity: 1;
+body .head .head__burger:checked + .head__menu img {
+  visibility: initial;
 }
 @media (min-width: 768px) {
   body .head {
