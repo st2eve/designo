@@ -73,8 +73,23 @@ body{
                         margin: 20px 0 40px 0;
                         align-self: center;
                     }
+<<<<<<< HEAD
                     .main__formulaire :nth-child(8){
                         height: 60px;
+=======
+                    .main__form-button{
+                        width: $WidthContainer;
+                        background-color: #E7816B;
+                        border: none;
+                        border-bottom: 1px solid white;
+                        &:hover {
+                            background-color:#FFAD9B;
+                            border: none;
+                            color: white;
+                            cursor: pointer;
+                        }
+                        
+>>>>>>> anais
                     }
                 }
 
@@ -124,6 +139,11 @@ body{
                         text-transform: uppercase;
                         text-align: center;
                         border: none;
+                        &:hover {
+                            background-color: #FFAD9B;
+                            cursor: pointer;
+                        
+                        }
                     }
                 }
 

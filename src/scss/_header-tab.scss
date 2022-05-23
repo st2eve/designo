@@ -40,15 +40,12 @@
                justify-content: end;
                flex-direction: initial;
                gap: 42px;
-   
                .head__sublist{
-                   
                    .head__link{
-                      
+                        color: #333136;
                         text-decoration: none;
-
-                        p{
-                            color: black;
+                        &:hover {
+                            text-decoration-line: underline;
                         }
                    }
                }

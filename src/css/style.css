@@ -163,6 +163,10 @@ body .head .head__nav .head__list .head__sublist .head__link {
   color: white;
   text-decoration: none;
 }
+body .head .head__nav .head__list .head__sublist .head__link:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
 body .head .head__burger {
   width: 30px;
   height: 30px;
@@ -243,10 +247,12 @@ body .head .head__burger:checked {
     gap: 42px;
   }
   body .head .head__nav .head__list .head__sublist .head__link {
+    color: #333136;
     text-decoration: none;
   }
-  body .head .head__nav .head__list .head__sublist .head__link p {
-    color: black;
+  body .head .head__nav .head__list .head__sublist .head__link:hover {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
   }
   body .head .head__burger {
     display: none;
@@ -317,6 +323,9 @@ main .section__home__header .container__text button {
   height: 56px;
   padding: 0;
 }
+main .section__home__header .container__text button:hover {
+  background: #FFAD9B;
+}
 main .section__home__header .container__text button a {
   width: 100%;
   padding: 15px;
@@ -328,6 +337,9 @@ main .section__home__header .container__text button a {
   letter-spacing: 1px;
   color: #333136;
   text-decoration: none;
+}
+main .section__home__header .container__text button a:hover {
+  color: white;
 }
 main .section__home__header .container__img {
   width: 100%;
@@ -355,6 +367,14 @@ main .section__home__design {
 main .section__home__design .container--web {
   width: 327px;
   height: 250px;
+}
+main .section__home__design .container--web a {
+  text-decoration: none;
+}
+main .section__home__design .container--web a:hover {
+  background: #E7816B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
 }
 main .section__home__design .container--web .container__img {
   height: 100%;
@@ -410,6 +430,14 @@ main .section__home__design .container--app {
   width: 327px;
   height: 250px;
 }
+main .section__home__design .container--app a {
+  text-decoration: none;
+}
+main .section__home__design .container--app a:hover {
+  background: #E7816B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
 main .section__home__design .container--app .container__img {
   height: 100%;
   background-image: url("/src/images/index_design/Bitmap_8.png");
@@ -463,6 +491,12 @@ main .section__home__design .container--app .container__img .container__text h3 
 main .section__home__design .container--graphic {
   width: 327px;
   height: 250px;
+}
+main .section__home__design .container--graphic a {
+  text-decoration: none;
+}
+main .section__home__design .container--graphic a:hover {
+  opacity: 0.8;
 }
 main .section__home__design .container--graphic .container__img {
   height: 100%;
@@ -1112,6 +1146,133 @@ main .trois .real .test p {
     display: flex;
     color: #333136;
   }
+  main .ville {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 100px;
+    height: 1428px;
+    width: 375px;
+  }
+  main .ville .belgium {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 120px;
+  }
+  main .ville .australia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .ville .kingdom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .ville .txt {
+    color: #333136;
+    margin-top: 48px;
+    font-size: 20px;
+  }
+  main .ville .see {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 56px;
+    width: 152px;
+    background-color: #E7816B;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+  main .ville .see:hover {
+    cursor: pointer;
+    background: #FFAD9B;
+  }
+  main .ville .see a {
+    text-decoration: none;
+    color: white;
+  }
+  main .trois {
+    margin-bottom: 120px;
+    width: 375px;
+  }
+  main .trois .photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .trois .photo img {
+    padding-top: 170px;
+  }
+  main .trois .real {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 545px;
+    position: relative;
+  }
+  main .trois .real img {
+    position: absolute;
+    z-index: 5;
+  }
+  main .trois .real .test {
+    position: absolute;
+    z-index: 6;
+  }
+  main .trois .real .test h3 {
+    font-family: "Jost";
+    font-size: 32px;
+    margin-top: 80px;
+    color: #e7816b;
+    text-align: center;
+  }
+  main .trois .real .test p {
+    font-family: "Jost";
+    text-align: center;
+    width: 300px;
+    font-size: 15px;
+    margin-top: 24px;
+    color: #333136;
+  }
 }
 
 body .main-contact .main__container {
@@ -1184,7 +1345,13 @@ body .main-contact .main__container .main__form .main__form-container .main__for
   border: none;
   border-bottom: 1px solid white;
 }
-body .main-contact .main__container .main__form .main__form-container .main__formulaire :last-child {
+body .main .main__container .main__form .main__form-container .main__form-button:hover {
+  background-color: #FFAD9B;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+body .main .main__container .main__form .main__form-container :last-child {
   background-color: white;
   width: 152px;
   height: 56px;
@@ -1259,7 +1426,12 @@ body .main-contact .main__container .main__link .main__link-button .main__link-b
   text-align: center;
   border: none;
 }
-body .foot-contact, body .foot-contact .foot__container {
+body .main .main__container .main__link .main__link-button .main__link-button_button:hover {
+  background-color: #FFAD9B;
+  cursor: pointer;
+}
+body .foot-contact, body .foot-contact .foot__container-contact {
+  width: 375px;
   height: 626px;
   background-color: #1D1C1E;
 }
@@ -2089,6 +2261,13 @@ main .section__app__frame .container .container__text {
   width: 327px;
   background: #FDF3F0;
 }
+main .section__app__frame .container .container__text:hover {
+  background-color: #E7816B;
+  cursor: pointer;
+}
+main .section__app__frame .container .container__text:hover h2, main .section__app__frame .container .container__text:hover p {
+  color: white;
+}
 main .section__app__frame .container .container__text h2 {
   font-family: "Jost";
   font-style: normal;
@@ -2129,6 +2308,12 @@ main .section__app__design {
 main .section__app__design .container--web {
   width: 327px;
   height: 250px;
+}
+main .section__app__design .container--web a {
+  text-decoration: none;
+}
+main .section__app__design .container--web a:hover {
+  opacity: 0.8;
 }
 main .section__app__design .container--web .container__img {
   height: 100%;
@@ -2183,6 +2368,12 @@ main .section__app__design .container--web .container__img .container__text h3 s
 main .section__app__design .container--graphic {
   width: 327px;
   height: 250px;
+}
+main .section__app__design .container--graphic a {
+  text-decoration: none;
+}
+main .section__app__design .container--graphic a:hover {
+  opacity: 0.8;
 }
 main .section__app__design .container--graphic .container__img {
   height: 100%;
@@ -2535,6 +2726,13 @@ main .section__web__frame .container .container__text {
   width: 327px;
   background: #FDF3F0;
 }
+main .section__web__frame .container .container__text:hover {
+  background: #E7816B;
+  cursor: pointer;
+}
+main .section__web__frame .container .container__text:hover h2, main .section__web__frame .container .container__text:hover p {
+  color: white;
+}
 main .section__web__frame .container .container__text h2 {
   font-family: "Jost";
   font-style: normal;
@@ -2575,6 +2773,12 @@ main .section__graphic__design {
 main .section__graphic__design .container--app {
   width: 327px;
   height: 250px;
+}
+main .section__graphic__design .container--app a {
+  text-decoration: none;
+}
+main .section__graphic__design .container--app a:hover {
+  opacity: 0.8;
 }
 main .section__graphic__design .container--app .container__img {
   height: 100%;
@@ -2629,6 +2833,12 @@ main .section__graphic__design .container--app .container__img .container__text 
 main .section__graphic__design .container--graphic {
   width: 327px;
   height: 250px;
+}
+main .section__graphic__design .container--graphic a {
+  text-decoration: none;
+}
+main .section__graphic__design .container--graphic a:hover {
+  opacity: 0.8;
 }
 main .section__graphic__design .container--graphic .container__img {
   height: 100%;
@@ -2975,6 +3185,11 @@ body .foot .foot__container .foot__contact .foot__contact-project .foot__project
   text-transform: uppercase;
   border: none;
 }
+body .foot .foot__container .foot__contact .foot__contact-project .foot__project .foot__button:hover {
+  background: #FFAD9B;
+  color: white;
+  cursor: pointer;
+}
 body .foot .foot__container .foot__contact :first-child {
   background-color: white;
 }
@@ -3018,6 +3233,10 @@ body .foot .foot__container .foot__nav .foot__list {
 body .foot .foot__container .foot__nav .foot__list .foot__sublist a {
   text-decoration: none;
   color: white;
+}
+body .foot .foot__container .foot__nav .foot__list .foot__sublist a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 body .foot .foot__container .foot__adress {
   width: 327px;
